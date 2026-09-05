@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NammaList — Bengaluru, curated by locals</title>
+  <meta name="description" content="NammaList — discover Bengaluru's food, coffee, dates, pints and things to do.">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-dot"></span>NammaList</a>
+  <nav>
+    <a href="#explore">Explore</a>
+    <a href="#map-section">Map</a>
+  </nav>
+  <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">BENGALURU · LOCAL GUIDE</div>
+    <h1>Find places worth<br><em>going to.</em></h1>
+    <p>Bengaluru, curated by locals. Food, coffee, pints, dates and things to do — without the noise.</p>
+    <div class="search-wrap">
+      <span>⌕</span>
+      <input id="search" placeholder="Search a place, area or category..." autocomplete="off">
+      <kbd>⌘ K</kbd>
+    </div>
+  </section>
+
+  <section class="controls" id="explore">
+    <div class="chips" id="categoryChips"></div>
+    <div class="filter-row">
+      <select id="areaFilter"><option value="">All areas</option></select>
+      <select id="priceFilter">
+        <option value="">Any price</option>
+        <option value="1">₹ · Budget</option>
+        <option value="2">₹₹ · Mid-range</option>
+        <option value="3">₹₹₹ · Premium</option>
+      </select>
+      <select id="ratingFilter">
+        <option value="">Any rating</option>
+        <option value="4.5">4.5+</option>
+        <option value="4">4.0+</option>
+        <option value="3.5">3.5+</option>
+      </select>
+      <select id="sortFilter">
+        <option value="featured">Curated order</option>
+        <option value="rating">Highest rated</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="section-head">
+    <div>
+      <span class="eyebrow">THE LIST</span>
+      <h2 id="resultTitle">Explore Bengaluru</h2>
+    </div>
+    <span id="resultCount" class="count"></span>
+  </section>
+
+  <section id="cards" class="grid"></section>
+
+  <section id="map-section" class="map-section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">GET AROUND</span>
+        <h2>Explore on the map</h2>
+      </div>
+      <button id="fitMapBtn" class="small-btn">Fit results ↗</button>
+    </div>
+    <div id="map"></div>
+  </section>
+</main>
+
+<footer>
+  <strong>NammaList</strong>
+  <span>Bengaluru, curated by locals.</span>
+  <span>NammaList · Bengaluru</span>
+</footer>
+
+<div id="toast" class="toast"></div>
+
+<div id="placeModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-body">
+      <div class="card-top"><span id="modalCategory" class="badge"></span><span id="modalRating" class="rating"></span></div>
+      <h2 id="modalTitle"></h2>
+      <div id="modalMeta" class="meta"></div>
+      <p id="modalDescription" class="desc"></p>
+      <a id="modalMaps" class="modal-map-btn" target="_blank" rel="noopener">📍 Open in Google Maps</a>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
