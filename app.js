@@ -10,7 +10,9 @@ const PLACES = [
     "description": "standing-only darshini done right since forever.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Umesh+Refreshments,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Umesh+Refreshments,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Umesh+Refreshments?lock=1",
+    "hours": null
   },
   {
     "id": 2,
@@ -23,7 +25,9 @@ const PLACES = [
     "description": "Frazer Town biryani institution. Go hungry.",
     "lat": 13.0086,
     "lng": 77.6294,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Chichabas+Taj,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Chichabas+Taj,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Chichabas+Taj?lock=2",
+    "hours": null
   },
   {
     "id": 3,
@@ -36,7 +40,9 @@ const PLACES = [
     "description": "Gowda and Mangalorean thalis by reservation only. Plan ahead.",
     "lat": 12.9841,
     "lng": 77.6179,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bengaluru+Oota+Company,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bengaluru+Oota+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bengaluru+Oota+Company?lock=3",
+    "hours": null
   },
   {
     "id": 4,
@@ -49,7 +55,9 @@ const PLACES = [
     "description": "Heritage Karnataka food with white-tablecloth energy.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Oota+Bangalore,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Oota+Bangalore,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Oota+Bangalore?lock=4",
+    "hours": null
   },
   {
     "id": 5,
@@ -62,7 +70,9 @@ const PLACES = [
     "description": "A Bengaluru institution known for classic South Indian breakfast.",
     "lat": 12.9568,
     "lng": 77.5948,
-    "maps": "https://www.google.com/maps/search/?api=1&query=MTR+1924,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=MTR+1924,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,MTR+1924?lock=5",
+    "hours": null
   },
   {
     "id": 6,
@@ -75,7 +85,9 @@ const PLACES = [
     "description": "St. Mark's Road forever. Mutton cutlets and history.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Koshy's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Koshy's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Koshys?lock=6",
+    "hours": null
   },
   {
     "id": 7,
@@ -88,7 +100,9 @@ const PLACES = [
     "description": "Eat a dosa under the trees in one of Bengaluru's classic spots.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Airlines+Hotel,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Airlines+Hotel,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Airlines+Hotel?lock=7",
+    "hours": null
   },
   {
     "id": 8,
@@ -101,7 +115,9 @@ const PLACES = [
     "description": "Donne biryani ground zero. Go early.",
     "lat": 12.9041,
     "lng": 77.5866,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Shivaji+Military+Hotel,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Shivaji+Military+Hotel,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Shivaji+Military+Hotel?lock=8",
+    "hours": null
   },
   {
     "id": 9,
@@ -114,7 +130,9 @@ const PLACES = [
     "description": "Soft idlis, classic breakfast and standing-room energy.",
     "lat": 12.9987,
     "lng": 77.5662,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Veena+Stores,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Veena+Stores,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Veena+Stores?lock=9",
+    "hours": null
   },
   {
     "id": 10,
@@ -127,7 +145,9 @@ const PLACES = [
     "description": "Andhra meals on banana leaf and plenty of spice.",
     "lat": 12.9764,
     "lng": 77.5946,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nagarjuna,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nagarjuna,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nagarjuna?lock=10",
+    "hours": null
   },
   {
     "id": 11,
@@ -140,7 +160,9 @@ const PLACES = [
     "description": "A classic late-night kebab-and-rice stop.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Empire,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Empire,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hotel+Empire?lock=11",
+    "hours": null
   },
   {
     "id": 12,
@@ -153,7 +175,9 @@ const PLACES = [
     "description": "Mangalorean seafood institution.",
     "lat": 12.9961,
     "lng": 77.5887,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Fishland,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Fishland,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hotel+Fishland?lock=12",
+    "hours": null
   },
   {
     "id": 13,
@@ -166,7 +190,9 @@ const PLACES = [
     "description": "Homestyle Mangalorean thali. Unfussy and real.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Appaji+Mane,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Appaji+Mane,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Appaji+Mane?lock=13",
+    "hours": null
   },
   {
     "id": 14,
@@ -179,7 +205,9 @@ const PLACES = [
     "description": "Idli maximalism. Check current opening status before visiting.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Stuffs+of+Idli,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Stuffs+of+Idli,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Stuffs+of+Idli?lock=14",
+    "hours": null
   },
   {
     "id": 15,
@@ -192,7 +220,9 @@ const PLACES = [
     "description": "A legendary benne masala dosa destination.",
     "lat": 12.9409,
     "lng": 77.5762,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vidyarthi+Bhavan,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vidyarthi+Bhavan,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Vidyarthi+Bhavan?lock=15",
+    "hours": null
   },
   {
     "id": 16,
@@ -205,7 +235,9 @@ const PLACES = [
     "description": "Crispy benne dosa and classic Bengaluru breakfast.",
     "lat": 13.0011,
     "lng": 77.5673,
-    "maps": "https://www.google.com/maps/search/?api=1&query=CTR+(Shri+Sagar),Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=CTR+(Shri+Sagar),Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,CTR+Shri+Sagar?lock=16",
+    "hours": null
   },
   {
     "id": 17,
@@ -218,7 +250,9 @@ const PLACES = [
     "description": "Idli, vada, chutney and filter coffee.",
     "lat": 12.9385,
     "lng": 77.5751,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Brahmin's+Coffee+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Brahmin's+Coffee+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Brahmins+Coffee+Bar?lock=17",
+    "hours": null
   },
   {
     "id": 18,
@@ -231,7 +265,9 @@ const PLACES = [
     "description": "Ghee podi idli and fast-moving queues.",
     "lat": 12.9736,
     "lng": 77.6364,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Rameshwaram+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Rameshwaram+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Rameshwaram+Cafe?lock=18",
+    "hours": null
   },
   {
     "id": 19,
@@ -244,7 +280,9 @@ const PLACES = [
     "description": "Pocket-friendly dosa and zero-frills Bengaluru charm.",
     "lat": 12.9298,
     "lng": 77.5938,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Taaza+Thindi,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Taaza+Thindi,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Taaza+Thindi?lock=19",
+    "hours": null
   },
   {
     "id": 20,
@@ -257,7 +295,9 @@ const PLACES = [
     "description": "Modern Italian dining with a polished city setting.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=LUPA,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=LUPA,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,LUPA?lock=20",
+    "hours": null
   },
   {
     "id": 21,
@@ -270,7 +310,9 @@ const PLACES = [
     "description": "Wazwan-style Kashmiri food.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sarposh,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sarposh,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sarposh?lock=21",
+    "hours": null
   },
   {
     "id": 22,
@@ -283,7 +325,9 @@ const PLACES = [
     "description": "Moody lighting, shared plates and a date-night feel.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Rumi,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rumi,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Rumi?lock=22",
+    "hours": null
   },
   {
     "id": 23,
@@ -296,7 +340,9 @@ const PLACES = [
     "description": "Everything cooked over open flame.",
     "lat": 13.029,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fireside,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fireside,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fireside?lock=23",
+    "hours": null
   },
   {
     "id": 24,
@@ -309,7 +355,9 @@ const PLACES = [
     "description": "Goan home-style flavours.",
     "lat": 12.9772,
     "lng": 77.643,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Klaa,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Klaa,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Klaa?lock=24",
+    "hours": null
   },
   {
     "id": 25,
@@ -322,7 +370,9 @@ const PLACES = [
     "description": "Known for burrata-topped pizza and a polished dining experience.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+4P's+Indiranagar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+4P's+Indiranagar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pizza+4Ps+Indiranagar?lock=25",
+    "hours": null
   },
   {
     "id": 26,
@@ -335,7 +385,9 @@ const PLACES = [
     "description": "Worth the drive north for an inventive menu.",
     "lat": 13.0254,
     "lng": 77.6411,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fervor+Restaurant,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fervor+Restaurant,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fervor+Restaurant?lock=26",
+    "hours": null
   },
   {
     "id": 27,
@@ -348,7 +400,9 @@ const PLACES = [
     "description": "Modern South Indian tasting plates.",
     "lat": 12.9769,
     "lng": 77.6146,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nāvu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nāvu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nvu?lock=27",
+    "hours": null
   },
   {
     "id": 28,
@@ -361,7 +415,9 @@ const PLACES = [
     "description": "Kaya toast, laksa and Malaysian comfort food.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Kopitiam+Lah,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Kopitiam+Lah,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Kopitiam+Lah?lock=28",
+    "hours": null
   },
   {
     "id": 29,
@@ -374,7 +430,9 @@ const PLACES = [
     "description": "Dimsum and ramen in a lively setting.",
     "lat": 12.982,
     "lng": 77.6452,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lucky+Chan,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lucky+Chan,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lucky+Chan?lock=29",
+    "hours": null
   },
   {
     "id": 30,
@@ -387,7 +445,9 @@ const PLACES = [
     "description": "Tonkotsu ramen and Japanese-inspired bowls.",
     "lat": 12.914,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo+Ramen+Suzuki,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo+Ramen+Suzuki,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tokyo+Ramen+Suzuki?lock=30",
+    "hours": null
   },
   {
     "id": 31,
@@ -400,7 +460,9 @@ const PLACES = [
     "description": "An established Korean spot with generous banchan.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Soo+Ra+Sang,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Soo+Ra+Sang,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Soo+Ra+Sang?lock=31",
+    "hours": null
   },
   {
     "id": 32,
@@ -413,7 +475,9 @@ const PLACES = [
     "description": "Korean comfort food with a family-run feel.",
     "lat": 13.029,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Dam's+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Dam's+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Dams+Kitchen?lock=32",
+    "hours": null
   },
   {
     "id": 33,
@@ -426,7 +490,9 @@ const PLACES = [
     "description": "Pho and banh mi with home-kitchen character.",
     "lat": 12.9772,
     "lng": 77.643,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Phobidden+Fruit+Vietnamese+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Phobidden+Fruit+Vietnamese+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Phobidden+Fruit+Vietnamese+Kitchen?lock=33",
+    "hours": null
   },
   {
     "id": 34,
@@ -439,7 +505,9 @@ const PLACES = [
     "description": "Malabar biryani and pathiri.",
     "lat": 12.9328,
     "lng": 77.6212,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Moplah's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Moplah's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Moplahs?lock=34",
+    "hours": null
   },
   {
     "id": 35,
@@ -452,7 +520,9 @@ const PLACES = [
     "description": "Sourdough pizza with a loyal following.",
     "lat": 12.9316,
     "lng": 77.6256,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Si+Nonna's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Si+Nonna's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Si+Nonnas?lock=35",
+    "hours": null
   },
   {
     "id": 36,
@@ -465,7 +535,9 @@ const PLACES = [
     "description": "NY-style slices and late-night energy.",
     "lat": 12.9602,
     "lng": 77.5956,
-    "maps": "https://www.google.com/maps/search/?api=1&query=23rd+Street+Pizza,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=23rd+Street+Pizza,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,23rd+Street+Pizza?lock=36",
+    "hours": null
   },
   {
     "id": 37,
@@ -478,7 +550,9 @@ const PLACES = [
     "description": "Handmade pasta with a neighbourhood feel.",
     "lat": 12.9985,
     "lng": 77.5898,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Maffei+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Maffei+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Maffei+Kitchen?lock=37",
+    "hours": null
   },
   {
     "id": 38,
@@ -491,7 +565,9 @@ const PLACES = [
     "description": "Japanese sandos with limited availability.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sando+Club,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sando+Club,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sando+Club?lock=38",
+    "hours": null
   },
   {
     "id": 39,
@@ -504,7 +580,9 @@ const PLACES = [
     "description": "A popular noodle bar where reservations can be useful.",
     "lat": 12.9592,
     "lng": 77.5959,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Naru+Noodle+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Naru+Noodle+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Naru+Noodle+Bar?lock=39",
+    "hours": null
   },
   {
     "id": 40,
@@ -517,7 +595,9 @@ const PLACES = [
     "description": "Tasting-menu experience on a working farm.",
     "lat": 12.9012,
     "lng": 77.5533,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Farmlore,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Farmlore,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Farmlore?lock=40",
+    "hours": null
   },
   {
     "id": 41,
@@ -530,7 +610,9 @@ const PLACES = [
     "description": "Long-running fine dining focused on coastal and South Indian cuisine.",
     "lat": 12.9716,
     "lng": 77.5924,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Karavalli,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Karavalli,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Karavalli?lock=41",
+    "hours": null
   },
   {
     "id": 42,
@@ -543,7 +625,9 @@ const PLACES = [
     "description": "Rooftop fine dining in a polished setting.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Salvadore's+Fine+Dining,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Salvadore's+Fine+Dining,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Salvadores+Fine+Dining?lock=42",
+    "hours": null
   },
   {
     "id": 43,
@@ -556,7 +640,9 @@ const PLACES = [
     "description": "Cosy candle-lit Italian dining.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pinocchio,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pinocchio,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pinocchio?lock=43",
+    "hours": null
   },
   {
     "id": 44,
@@ -569,7 +655,9 @@ const PLACES = [
     "description": "No-frills pizza.",
     "lat": 12.9781,
     "lng": 77.6201,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+No+Cap,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+No+Cap,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pizza+No+Cap?lock=44",
+    "hours": null
   },
   {
     "id": 45,
@@ -582,7 +670,9 @@ const PLACES = [
     "description": "Thai cafe with bold flavours.",
     "lat": 12.9029,
     "lng": 77.5811,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mai+Prathum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mai+Prathum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Mai+Prathum?lock=45",
+    "hours": null
   },
   {
     "id": 46,
@@ -595,7 +685,9 @@ const PLACES = [
     "description": "Assamese and Northeastern home cooking.",
     "lat": 12.94,
     "lng": 77.6245,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Gam's+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Gam's+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Gams+Kitchen?lock=46",
+    "hours": null
   },
   {
     "id": 47,
@@ -608,7 +700,9 @@ const PLACES = [
     "description": "Quiet, minimal, serious coffee.",
     "lat": 12.9636,
     "lng": 77.6444,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Still+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Still+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Still+Coffee?lock=47",
+    "hours": null
   },
   {
     "id": 48,
@@ -621,7 +715,9 @@ const PLACES = [
     "description": "Small menu with carefully made specialty coffee.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=anāma+coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=anāma+coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,anma+coffee?lock=48",
+    "hours": null
   },
   {
     "id": 49,
@@ -634,7 +730,9 @@ const PLACES = [
     "description": "Single-origin coffee in a beautiful space.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ARAKU+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ARAKU+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ARAKU+Coffee?lock=49",
+    "hours": null
   },
   {
     "id": 50,
@@ -647,7 +745,9 @@ const PLACES = [
     "description": "Specialty brews from tribal-grown beans.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tribal+Brew+Daily,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tribal+Brew+Daily,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tribal+Brew+Daily?lock=50",
+    "hours": null
   },
   {
     "id": 51,
@@ -660,7 +760,9 @@ const PLACES = [
     "description": "Subko's Bengaluru outpost with coffee and bakes.",
     "lat": 12.934,
     "lng": 77.6267,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Craftery+by+Subko,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Craftery+by+Subko,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Craftery+by+Subko?lock=51",
+    "hours": null
   },
   {
     "id": 52,
@@ -673,7 +775,9 @@ const PLACES = [
     "description": "Coffee, calm and good pastries.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Muru+Muru,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Muru+Muru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Muru+Muru?lock=52",
+    "hours": null
   },
   {
     "id": 53,
@@ -686,7 +790,9 @@ const PLACES = [
     "description": "Coffee, books and pie.",
     "lat": 12.9748,
     "lng": 77.6419,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Paper+&+Pie,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Paper+&+Pie,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Paper++Pie?lock=53",
+    "hours": null
   },
   {
     "id": 54,
@@ -699,7 +805,9 @@ const PLACES = [
     "description": "Modern take on chai.",
     "lat": 12.9736,
     "lng": 77.6364,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Chai+Days,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Chai+Days,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Chai+Days?lock=54",
+    "hours": null
   },
   {
     "id": 55,
@@ -712,7 +820,9 @@ const PLACES = [
     "description": "Cafe energy with a solid brunch offering.",
     "lat": 12.9616,
     "lng": 77.597,
-    "maps": "https://www.google.com/maps/search/?api=1&query=WIP,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=WIP,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,WIP?lock=55",
+    "hours": null
   },
   {
     "id": 56,
@@ -725,7 +835,9 @@ const PLACES = [
     "description": "All-day breakfast favourite.",
     "lat": 12.9388,
     "lng": 77.6289,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Hole+In+The+Wall+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Hole+In+The+Wall+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Hole+In+The+Wall+Cafe?lock=56",
+    "hours": null
   },
   {
     "id": 57,
@@ -738,7 +850,9 @@ const PLACES = [
     "description": "Ceremonial-grade matcha.",
     "lat": 12.9674,
     "lng": 77.5989,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sakura+Matcha+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sakura+Matcha+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sakura+Matcha+Bar?lock=57",
+    "hours": null
   },
   {
     "id": 58,
@@ -751,7 +865,9 @@ const PLACES = [
     "description": "Estate-grown coffee and experimental brews.",
     "lat": 12.9829,
     "lng": 77.6223,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Maverick+&+Farmer+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Maverick+&+Farmer+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Maverick++Farmer+Coffee?lock=58",
+    "hours": null
   },
   {
     "id": 59,
@@ -764,7 +880,9 @@ const PLACES = [
     "description": "Books, courtyard seating and filter coffee.",
     "lat": 12.9937,
     "lng": 77.5876,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Champaca+Bookstore+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Champaca+Bookstore+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Champaca+Bookstore+Cafe?lock=59",
+    "hours": null
   },
   {
     "id": 60,
@@ -777,7 +895,9 @@ const PLACES = [
     "description": "Slow coffee in a relaxed setting.",
     "lat": 12.9154,
     "lng": 77.6123,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nerlu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nerlu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nerlu?lock=60",
+    "hours": null
   },
   {
     "id": 61,
@@ -790,7 +910,9 @@ const PLACES = [
     "description": "Neighbourhood spot with rotating specialty brews.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fresh+Factory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fresh+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fresh+Factory?lock=61",
+    "hours": null
   },
   {
     "id": 62,
@@ -803,7 +925,9 @@ const PLACES = [
     "description": "Quiet specialty coffee.",
     "lat": 12.9041,
     "lng": 77.5866,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Kinya,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Kinya,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Kinya?lock=62",
+    "hours": null
   },
   {
     "id": 63,
@@ -816,7 +940,9 @@ const PLACES = [
     "description": "Patisserie and cafe known for serious baking.",
     "lat": 12.9561,
     "lng": 77.6343,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lavonne+Café,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lavonne+Café,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lavonne+Caf?lock=63",
+    "hours": null
   },
   {
     "id": 64,
@@ -829,7 +955,9 @@ const PLACES = [
     "description": "Small-batch ice cream.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=LICK+by+Lavonne,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=LICK+by+Lavonne,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,LICK+by+Lavonne?lock=64",
+    "hours": null
   },
   {
     "id": 65,
@@ -842,7 +970,9 @@ const PLACES = [
     "description": "Acai bowls and fresh toppings.",
     "lat": 12.982,
     "lng": 77.6452,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Acai+Theory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Acai+Theory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Acai+Theory?lock=65",
+    "hours": null
   },
   {
     "id": 66,
@@ -855,7 +985,9 @@ const PLACES = [
     "description": "Cult-style bakes and limited drops.",
     "lat": 12.9274,
     "lng": 77.5927,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Juny's+Bakehouse,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Juny's+Bakehouse,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Junys+Bakehouse?lock=66",
+    "hours": null
   },
   {
     "id": 67,
@@ -868,7 +1000,9 @@ const PLACES = [
     "description": "Japanese-inspired desserts and soft serve.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=K+A+W+A+I+I,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=K+A+W+A+I+I,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,K+A+W+A+I+I?lock=67",
+    "hours": null
   },
   {
     "id": 68,
@@ -881,7 +1015,9 @@ const PLACES = [
     "description": "A Bengaluru classic, especially for Death by Chocolate.",
     "lat": 12.9698,
     "lng": 77.7478,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Corner+House+Ice+Cream,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Corner+House+Ice+Cream,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Corner+House+Ice+Cream?lock=68",
+    "hours": null
   },
   {
     "id": 69,
@@ -894,7 +1030,9 @@ const PLACES = [
     "description": "Old-school sundaes and fruit desserts.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lakeview+Milk+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lakeview+Milk+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lakeview+Milk+Bar?lock=69",
+    "hours": null
   },
   {
     "id": 70,
@@ -907,7 +1045,9 @@ const PLACES = [
     "description": "Popular scoops and a lively queue.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Milano+Ice+Cream,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Milano+Ice+Cream,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Milano+Ice+Cream?lock=70",
+    "hours": null
   },
   {
     "id": 71,
@@ -920,7 +1060,9 @@ const PLACES = [
     "description": "Traditional sweets, especially Mysore pak.",
     "lat": 12.9876,
     "lng": 77.5551,
-    "maps": "https://www.google.com/maps/search/?api=1&query=O.G.+Variar+&+Sons,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=O.G.+Variar+&+Sons,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,OG+Variar++Sons?lock=71",
+    "hours": null
   },
   {
     "id": 72,
@@ -933,7 +1075,9 @@ const PLACES = [
     "description": "Desserts with a nostalgic Bengaluru feel.",
     "lat": 12.9029,
     "lng": 77.5811,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nenapu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nenapu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nenapu?lock=72",
+    "hours": null
   },
   {
     "id": 73,
@@ -946,7 +1090,9 @@ const PLACES = [
     "description": "Patisserie bakes for a proper sugar rush.",
     "lat": 12.9125,
     "lng": 77.5855,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Harley's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Harley's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Harleys?lock=73",
+    "hours": null
   },
   {
     "id": 74,
@@ -959,7 +1105,9 @@ const PLACES = [
     "description": "Old-school bakery with fresh bakes.",
     "lat": 12.9686,
     "lng": 77.6044,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fathima+Bakery,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fathima+Bakery,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fathima+Bakery?lock=74",
+    "hours": null
   },
   {
     "id": 75,
@@ -972,7 +1120,9 @@ const PLACES = [
     "description": "One of Bengaluru's best-known craft beer institutions.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toit+Brewpub?lock=75",
+    "hours": null
   },
   {
     "id": 76,
@@ -985,7 +1135,9 @@ const PLACES = [
     "description": "American-style ales and craft beer.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Arbor+Brewing+Company?lock=76",
+    "hours": null
   },
   {
     "id": 77,
@@ -998,7 +1150,9 @@ const PLACES = [
     "description": "Affordable pints, peanuts and zero pretence.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bob's+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bob's+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bobs+Bar?lock=77",
+    "hours": null
   },
   {
     "id": 78,
@@ -1011,7 +1165,9 @@ const PLACES = [
     "description": "Bengaluru craft beer and taproom atmosphere.",
     "lat": 12.9988,
     "lng": 77.6822,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Geist+Brewing+Factory?lock=78",
+    "hours": null
   },
   {
     "id": 79,
@@ -1024,7 +1180,9 @@ const PLACES = [
     "description": "Hidden-bar atmosphere and creative cocktails.",
     "lat": 12.9576,
     "lng": 77.6367,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ZLB23+Speakeasy,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ZLB23+Speakeasy,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ZLB23+Speakeasy?lock=79",
+    "hours": null
   },
   {
     "id": 80,
@@ -1037,7 +1195,9 @@ const PLACES = [
     "description": "Surrealist-inspired cocktail setting.",
     "lat": 12.968,
     "lng": 77.5957,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Dali+and+Gala,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Dali+and+Gala,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Dali+and+Gala?lock=80",
+    "hours": null
   },
   {
     "id": 81,
@@ -1050,7 +1210,9 @@ const PLACES = [
     "description": "Morning run followed by breakfast.",
     "lat": 12.9668,
     "lng": 77.5902,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park+morning+run,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park+morning+run,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Cubbon+Park+morning+run?lock=81",
+    "hours": null
   },
   {
     "id": 82,
@@ -1063,7 +1225,9 @@ const PLACES = [
     "description": "Secondhand books and an easy slow-date plan.",
     "lat": 12.9764,
     "lng": 77.5946,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Blossom+Book+House,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Blossom+Book+House,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Blossom+Book+House?lock=82",
+    "hours": null
   },
   {
     "id": 83,
@@ -1076,7 +1240,9 @@ const PLACES = [
     "description": "Early drive for sunrise and open views.",
     "lat": 13.3738,
     "lng": 77.6879,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nandi+Hills+sunrise,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nandi+Hills+sunrise,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nandi+Hills+sunrise?lock=83",
+    "hours": null
   },
   {
     "id": 84,
@@ -1089,7 +1255,9 @@ const PLACES = [
     "description": "Art museum date followed by coffee.",
     "lat": 12.974,
     "lng": 77.5935,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Museum+of+Art+&+Photography,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Museum+of+Art+&+Photography,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Museum+of+Art++Photography?lock=84",
+    "hours": null
   },
   {
     "id": 85,
@@ -1102,7 +1270,9 @@ const PLACES = [
     "description": "Night trek and sunrise above the clouds.",
     "lat": 13.3952,
     "lng": 77.7273,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Skandagiri+sunrise+trek,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Skandagiri+sunrise+trek,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Skandagiri+sunrise+trek?lock=85",
+    "hours": null
   },
   {
     "id": 86,
@@ -1115,7 +1285,9 @@ const PLACES = [
     "description": "Large historic garden with the famous glasshouse.",
     "lat": 12.9568,
     "lng": 77.5948,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Botanical+Garden,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Botanical+Garden,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lalbagh+Botanical+Garden?lock=86",
+    "hours": null
   },
   {
     "id": 87,
@@ -1128,7 +1300,9 @@ const PLACES = [
     "description": "Go early for the colourful flower market.",
     "lat": 12.9409,
     "lng": 77.5762,
-    "maps": "https://www.google.com/maps/search/?api=1&query=KR+Market+flower+market,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=KR+Market+flower+market,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,KR+Market+flower+market?lock=87",
+    "hours": null
   },
   {
     "id": 88,
@@ -1141,7 +1315,9 @@ const PLACES = [
     "description": "A Bengaluru theatre staple with frequent performances.",
     "lat": 12.9053,
     "lng": 77.5822,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ranga+Shankara,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ranga+Shankara,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Ranga+Shankara?lock=88",
+    "hours": null
   },
   {
     "id": 89,
@@ -1154,7 +1330,9 @@ const PLACES = [
     "description": "Historic Tudor-style palace in the middle of the city.",
     "lat": 12.9901,
     "lng": 77.5909,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bangalore+Palace,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bangalore+Palace,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bangalore+Palace?lock=89",
+    "hours": null
   },
   {
     "id": 90,
@@ -1167,7 +1345,9 @@ const PLACES = [
     "description": "Bookshops, cafes and an easy city walk.",
     "lat": 12.9668,
     "lng": 77.5902,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Church+Street+stroll,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Church+Street+stroll,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Church+Street+stroll?lock=90",
+    "hours": null
   },
   {
     "id": 91,
@@ -1180,7 +1360,9 @@ const PLACES = [
     "description": "A concentrated street-food crawl.",
     "lat": 12.9564,
     "lng": 77.575,
-    "maps": "https://www.google.com/maps/search/?api=1&query=VV+Puram+food+street,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=VV+Puram+food+street,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,VV+Puram+food+street?lock=91",
+    "hours": null
   },
   {
     "id": 92,
@@ -1193,7 +1375,9 @@ const PLACES = [
     "description": "Secondhand books and bargain hunting.",
     "lat": 12.9604,
     "lng": 77.6014,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Avenue+Road+book+stalls,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Avenue+Road+book+stalls,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Avenue+Road+book+stalls?lock=92",
+    "hours": null
   },
   {
     "id": 93,
@@ -1206,7 +1390,9 @@ const PLACES = [
     "description": "Modern art in a heritage setting.",
     "lat": 12.9961,
     "lng": 77.5887,
-    "maps": "https://www.google.com/maps/search/?api=1&query=NGMA+Bengaluru,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=NGMA+Bengaluru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,NGMA+Bengaluru?lock=93",
+    "hours": null
   },
   {
     "id": 94,
@@ -1219,7 +1405,9 @@ const PLACES = [
     "description": "Popular for morning walks and cycling.",
     "lat": 12.8862,
     "lng": 77.5393,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Turahalli+forest,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Turahalli+forest,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Turahalli+forest?lock=94",
+    "hours": null
   },
   {
     "id": 95,
@@ -1232,7 +1420,9 @@ const PLACES = [
     "description": "Interactive museum dedicated to Indian music.",
     "lat": 12.9077,
     "lng": 77.5833,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Indian+Music+Experience+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Indian+Music+Experience+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Indian+Music+Experience+Museum?lock=95",
+    "hours": null
   },
   {
     "id": 96,
@@ -1245,7 +1435,9 @@ const PLACES = [
     "description": "Watches and machine-tool history.",
     "lat": 13.0458,
     "lng": 77.5482,
-    "maps": "https://www.google.com/maps/search/?api=1&query=HMT+Heritage+Centre+&+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=HMT+Heritage+Centre+&+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,HMT+Heritage+Centre++Museum?lock=96",
+    "hours": null
   },
   {
     "id": 97,
@@ -1258,7 +1450,9 @@ const PLACES = [
     "description": "Specialist museum focused on Indian paper money.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Rezwan+Razack's+Museum+of+Indian+Paper+Money,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rezwan+Razack's+Museum+of+Indian+Paper+Money,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Rezwan+Razacks+Museum+of+Indian+Paper+Money?lock=97",
+    "hours": null
   },
   {
     "id": 98,
@@ -1271,7 +1465,9 @@ const PLACES = [
     "description": "Bengaluru's iconic green lung, ideal for walks, cycling and relaxed mornings.",
     "lat": 12.9763,
     "lng": 77.5929,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Cubbon+Park?lock=98",
+    "hours": null
   },
   {
     "id": 101,
@@ -1284,7 +1480,9 @@ const PLACES = [
     "description": "Historic wooden palace and museum connected with Tipu Sultan's era.",
     "lat": 12.9592,
     "lng": 77.5741,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tipu+Sultan%27s+Summer+Palace,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tipu+Sultan%27s+Summer+Palace,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tipu+Sultans+Summer+Palace?lock=101",
+    "hours": null
   },
   {
     "id": 102,
@@ -1297,7 +1495,9 @@ const PLACES = [
     "description": "Central Bengaluru lake with greenery, walking areas and boating nearby.",
     "lat": 12.9819,
     "lng": 77.619,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ulsoor+Lake,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ulsoor+Lake,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Ulsoor+Lake?lock=102",
+    "hours": null
   },
   {
     "id": 103,
@@ -1310,7 +1510,9 @@ const PLACES = [
     "description": "Peaceful urban lake popular for evening walks and a quick city escape.",
     "lat": 13.012,
     "lng": 77.5747,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sankey+Tank,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sankey+Tank,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sankey+Tank?lock=103",
+    "hours": null
   },
   {
     "id": 104,
@@ -1323,7 +1525,9 @@ const PLACES = [
     "description": "Large wildlife destination with zoo, safari and butterfly park experiences.",
     "lat": 12.8,
     "lng": 77.577,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bannerghatta+Biological+Park,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bannerghatta+Biological+Park,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bannerghatta+Biological+Park?lock=104",
+    "hours": null
   },
   {
     "id": 105,
@@ -1336,7 +1540,9 @@ const PLACES = [
     "description": "Hilltop temple complex with distinctive architecture and a lively cultural atmosphere.",
     "lat": 13.0106,
     "lng": 77.5511,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ISKCON+Temple+Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ISKCON+Temple+Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ISKCON+Temple+Bengaluru?lock=105",
+    "hours": null
   },
   {
     "id": 106,
@@ -1349,7 +1555,9 @@ const PLACES = [
     "description": "One of Bengaluru's best-known heritage temples, famous for its monumental Nandi.",
     "lat": 12.9416,
     "lng": 77.5681,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bull+Temple,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bull+Temple,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bull+Temple?lock=106",
+    "hours": null
   },
   {
     "id": 107,
@@ -1362,95 +1570,400 @@ const PLACES = [
     "description": "Interactive science and technology museum that works well for families and curious minds.",
     "lat": 12.9753,
     "lng": 77.5963,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Visvesvaraya+Industrial+%26+Technological+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Visvesvaraya+Industrial+%26+Technological+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Visvesvaraya+Industrial++Technological+Museum?lock=107",
+    "hours": null
+  },
+  {
+    "id": 108,
+    "category": "Pubs & Nightlife",
+    "name": "Toit Brewpub",
+    "type": "Microbrewery / pub",
+    "area": "Indiranagar",
+    "rating": 4.4,
+    "price": 2,
+    "description": "Bengaluru’s iconic brewpub and a cornerstone of the city’s craft-beer scene.",
+    "lat": 12.9782,
+    "lng": 77.6408,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toit+Brewpub?lock=108",
+    "hours": null
+  },
+  {
+    "id": 109,
+    "category": "Pubs & Nightlife",
+    "name": "The Bier Library",
+    "type": "Craft beer bar",
+    "area": "Koramangala",
+    "rating": 4.3,
+    "price": 2,
+    "description": "Bookish, relaxed craft-beer destination with rotating taps and food.",
+    "lat": 12.9344,
+    "lng": 77.6147,
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Bier+Library,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Bier+Library?lock=109",
+    "hours": null
+  },
+  {
+    "id": 110,
+    "category": "Pubs & Nightlife",
+    "name": "Arbor Brewing Company",
+    "type": "Brewery",
+    "area": "Ashok Nagar",
+    "rating": 4.3,
+    "price": 3,
+    "description": "American-style craft brewery known for its hoppy beers.",
+    "lat": 12.9711,
+    "lng": 77.6052,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Arbor+Brewing+Company?lock=110",
+    "hours": null
+  },
+  {
+    "id": 111,
+    "category": "Pubs & Nightlife",
+    "name": "Pecos",
+    "type": "Classic rock pub",
+    "area": "Brigade Road",
+    "rating": 4.0,
+    "price": 1,
+    "description": "Old-school Bengaluru rock pub with a legendary budget-friendly vibe.",
+    "lat": 12.9719,
+    "lng": 77.6066,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pecos,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pecos?lock=111",
+    "hours": null
+  },
+  {
+    "id": 112,
+    "category": "Pubs & Nightlife",
+    "name": "Byg Brewski Brewing Company",
+    "type": "Mega brewery",
+    "area": "Hennur",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Huge brewery campus with outdoor seating, food and live entertainment.",
+    "lat": 13.0256,
+    "lng": 77.6432,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Byg+Brewski+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Byg+Brewski+Brewing+Company?lock=112",
+    "hours": null
+  },
+  {
+    "id": 113,
+    "category": "Pubs & Nightlife",
+    "name": "Windmills Craftworks",
+    "type": "Brewery & live music",
+    "area": "Whitefield",
+    "rating": 4.4,
+    "price": 3,
+    "description": "Premium brewery, dining and live jazz in Whitefield.",
+    "lat": 12.9762,
+    "lng": 77.7274,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Windmills+Craftworks,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Windmills+Craftworks?lock=113",
+    "hours": null
+  },
+  {
+    "id": 114,
+    "category": "Pubs & Nightlife",
+    "name": "The Permit Room",
+    "type": "Cocktail bar",
+    "area": "Lavelle Road",
+    "rating": 4.4,
+    "price": 3,
+    "description": "Modern Indian bar known for cocktails and a lively atmosphere.",
+    "lat": 12.9696,
+    "lng": 77.5962,
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Permit+Room,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Permit+Room?lock=114",
+    "hours": null
+  },
+  {
+    "id": 115,
+    "category": "Pubs & Nightlife",
+    "name": "Communiti",
+    "type": "Brewery / pub",
+    "area": "Residency Road",
+    "rating": 4.4,
+    "price": 2,
+    "description": "Large social brewery with multiple seating zones and a lively crowd.",
+    "lat": 12.9672,
+    "lng": 77.6028,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Communiti,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Communiti?lock=115",
+    "hours": null
+  },
+  {
+    "id": 116,
+    "category": "Pubs & Nightlife",
+    "name": "Hard Rock Cafe Bengaluru",
+    "type": "Rock bar & restaurant",
+    "area": "St. Marks Road",
+    "rating": 4.3,
+    "price": 3,
+    "description": "Live music, rock memorabilia, burgers and cocktails.",
+    "lat": 12.974,
+    "lng": 77.6016,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hard+Rock+Cafe+Bengaluru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hard+Rock+Cafe+Bengaluru?lock=116",
+    "hours": null
+  },
+  {
+    "id": 117,
+    "category": "Pubs & Nightlife",
+    "name": "Big Pitcher",
+    "type": "Brewery",
+    "area": "Old Airport Road",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Large multi-level brewery with house beers and group-friendly seating.",
+    "lat": 12.9584,
+    "lng": 77.6472,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Big+Pitcher,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Big+Pitcher?lock=117",
+    "hours": null
+  },
+  {
+    "id": 118,
+    "category": "Pubs & Nightlife",
+    "name": "Geist Brewing Factory",
+    "type": "Brewery",
+    "area": "Whitefield",
+    "rating": 4.3,
+    "price": 2,
+    "description": "Independent brewery known for house-made beers and hearty food.",
+    "lat": 12.9692,
+    "lng": 77.749,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Geist+Brewing+Factory?lock=118",
+    "hours": null
+  },
+  {
+    "id": 119,
+    "category": "Pubs & Nightlife",
+    "name": "Biere Club",
+    "type": "Craft beer bar",
+    "area": "Lavelle Road",
+    "rating": 4.2,
+    "price": 2,
+    "description": "One of Bengaluru’s early microbreweries with a central location.",
+    "lat": 12.969,
+    "lng": 77.5968,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Biere+Club,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Biere+Club?lock=119",
+    "hours": null
+  },
+  {
+    "id": 120,
+    "category": "Pubs & Nightlife",
+    "name": "URU Brewpark",
+    "type": "Brewery / garden",
+    "area": "Hennur",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Garden-style brewery with a broad food menu and outdoor space.",
+    "lat": 13.0245,
+    "lng": 77.642,
+    "maps": "https://www.google.com/maps/search/?api=1&query=URU+Brewpark,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,URU+Brewpark?lock=120",
+    "hours": null
+  },
+  {
+    "id": 121,
+    "category": "Pubs & Nightlife",
+    "name": "High Ultra Lounge",
+    "type": "Rooftop lounge",
+    "area": "Malleshwaram",
+    "rating": 4.2,
+    "price": 3,
+    "description": "High-rise rooftop lounge with panoramic Bengaluru skyline views.",
+    "lat": 13.0115,
+    "lng": 77.5548,
+    "maps": "https://www.google.com/maps/search/?api=1&query=High+Ultra+Lounge,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,High+Ultra+Lounge?lock=121",
+    "hours": null
+  },
+  {
+    "id": 122,
+    "category": "Pubs & Nightlife",
+    "name": "Copitas",
+    "type": "Luxury cocktail bar",
+    "area": "Ulsoor",
+    "rating": 4.6,
+    "price": 3,
+    "description": "Luxury cocktail destination at Four Seasons Bengaluru.",
+    "lat": 12.9925,
+    "lng": 77.6215,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Copitas,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Copitas?lock=122",
+    "hours": null
+  },
+  {
+    "id": 123,
+    "category": "Pubs & Nightlife",
+    "name": "Skyye",
+    "type": "Rooftop lounge",
+    "area": "UB City",
+    "rating": 4.2,
+    "price": 3,
+    "description": "Upscale rooftop lounge with skyline views and cocktails.",
+    "lat": 12.9712,
+    "lng": 77.5969,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Skyye,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Skyye?lock=123",
+    "hours": null
+  },
+  {
+    "id": 124,
+    "category": "Pubs & Nightlife",
+    "name": "13th Floor",
+    "type": "Rooftop cocktail bar",
+    "area": "MG Road",
+    "rating": 4.2,
+    "price": 3,
+    "description": "Classic Bengaluru rooftop for sundowners and central-city views.",
+    "lat": 12.9744,
+    "lng": 77.605,
+    "maps": "https://www.google.com/maps/search/?api=1&query=13th+Floor,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,13th+Floor?lock=124",
+    "hours": null
+  },
+  {
+    "id": 125,
+    "category": "Pubs & Nightlife",
+    "name": "Toast & Tonic",
+    "type": "Upscale cocktail bar",
+    "area": "UB City",
+    "rating": 4.3,
+    "price": 3,
+    "description": "Stylish cocktail-led bar and restaurant in the UB City area.",
+    "lat": 12.971,
+    "lng": 77.5965,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toast+&+Tonic,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toast++Tonic?lock=125",
+    "hours": null
+  },
+  {
+    "id": 126,
+    "category": "Pubs & Nightlife",
+    "name": "Monkey Bar",
+    "type": "Gastropub",
+    "area": "Indiranagar",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Casual gastropub with cocktails, food and an energetic crowd.",
+    "lat": 12.9789,
+    "lng": 77.6402,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Monkey+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Monkey+Bar?lock=126",
+    "hours": null
+  },
+  {
+    "id": 127,
+    "category": "Pubs & Nightlife",
+    "name": "Bob’s Bar",
+    "type": "Budget bar",
+    "area": "Indiranagar",
+    "rating": 4.2,
+    "price": 1,
+    "description": "No-frills Bengaluru bar known for straightforward drinks and value.",
+    "lat": 12.9792,
+    "lng": 77.6407,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bob’s+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bobs+Bar?lock=127",
+    "hours": null
   }
 ];
 
-const cats = ["All","OG Spots","Dosas and Darshinis","Gourmet","Coffee","Sweet Tooth","Pints","Date Plans","Things to Do","Parks & Attractions"];
+const cats = ["All",...new Set(PLACES.map(p=>p.category))];
+const PRICE_LABELS = {1:"₹ · Budget · ≤₹1,000 / 2",2:"₹₹ · Mid-range · ₹1,000–₹2,500 / 2",3:"₹₹₹ · Premium · ₹2,500+ / 2"};
 let selectedCategory = "All";
+let showFavorites = false;
+let userLocation = null;
 let map, markers = [], filtered = [...PLACES];
 
 const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money = p => "₹".repeat(p);
-const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const favorites = new Set(JSON.parse(localStorage.getItem("namma-favorites") || "[]").map(Number));
 
 function setup(){
-  $("#categoryChips").innerHTML = cats.map(c=>`<button class="chip ${c==="All"?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
-  cats.forEach(c => {});
+  const chips=[...cats];
+  $("#categoryChips").innerHTML = chips.map(c=>`<button class="chip ${c==="All"?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
   [...new Set(PLACES.map(p=>p.area))].sort().forEach(a => $("#areaFilter").insertAdjacentHTML("beforeend", `<option>${esc(a)}</option>`));
   document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{selectedCategory=b.dataset.cat;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));render()});
-  ["search","areaFilter","priceFilter","ratingFilter","sortFilter"].forEach(id=>$( "#"+id).addEventListener(id==="search"?"input":"change",render));
+  ["search","areaFilter","priceFilter","ratingFilter","sortFilter"].forEach(id=>$("#"+id).addEventListener(id==="search"?"input":"change",render));
   $("#themeBtn").onclick=toggleTheme;
   $("#fitMapBtn").onclick=fitMap;
+  $("#nearMeBtn").onclick=locateMe;
+  $("#favoritesBtn").onclick=()=>{showFavorites=!showFavorites;$("#favoritesBtn").classList.toggle("active",showFavorites);render()};
   document.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="k"){e.preventDefault();$("#search").focus()}});
   initMap(); render();
   $("#modalClose").onclick=closePlaceModal;
   document.querySelector("[data-close-modal]").onclick=closePlaceModal;
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closePlaceModal()});
 }
-
 function render(){
   const q=$("#search").value.trim().toLowerCase(), area=$("#areaFilter").value, price=$("#priceFilter").value, rating=$("#ratingFilter").value, sort=$("#sortFilter").value;
   filtered=PLACES.filter(p=>{
     const matchesCat=selectedCategory==="All"||p.category===selectedCategory;
     const hay=[p.name,p.type,p.area,p.category,p.description].join(" ").toLowerCase();
-    return matchesCat && (!q||hay.includes(q)) && (!area||p.area===area) && (!price||p.price===+price) && (!rating||p.rating>=+rating);
+    return matchesCat && (!q||hay.includes(q)) && (!area||p.area===area) && (!price||p.price===+price) && (!rating||p.rating>=+rating) && (!showFavorites||favorites.has(p.id));
   });
+  if(userLocation) filtered.sort((a,b)=>distanceKm(userLocation.lat,userLocation.lng,a.lat,a.lng)-distanceKm(userLocation.lat,userLocation.lng,b.lat,b.lng));
   if(sort==="rating") filtered.sort((a,b)=>b.rating-a.rating);
   if(sort==="name") filtered.sort((a,b)=>a.name.localeCompare(b.name));
   $("#resultCount").textContent=`${filtered.length} place${filtered.length===1?"":"s"}`;
-  $("#resultTitle").textContent=selectedCategory==="All" ? "Explore Bengaluru" : selectedCategory;
+  $("#resultTitle").textContent=showFavorites?"Your Favorites":(selectedCategory==="All"?"Explore Bengaluru":selectedCategory);
   $("#cards").innerHTML=filtered.map(card).join("");
   document.querySelectorAll("[data-place]").forEach(c=>{
-    c.onclick=()=>openPlaceModal(+c.dataset.place);
+    c.onclick=e=>{if(e.target.closest("[data-fav]")){toggleFavorite(+c.dataset.place);return} openPlaceModal(+c.dataset.place)};
     c.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openPlaceModal(+c.dataset.place)}};
   });
+  document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(+b.dataset.fav)});
   updateMarkers();
 }
+function imageFor(p){return p.photo || `https://loremflickr.com/900/600/bengaluru,${encodeURIComponent(p.name)}?lock=${p.id}`}
+function distanceLabel(p){return userLocation?`${distanceKm(userLocation.lat,userLocation.lng,p.lat,p.lng).toFixed(1)} km away`:"Near you? Enable location"}
+function statusFor(p){
+  if(!p.hours) return `<span class="status unknown">● Hours not listed</span>`;
+  const now=new Date(), day=['sun','mon','tue','wed','thu','fri','sat'][now.getDay()], h=p.hours[day];
+  if(!h) return `<span class="status closed">● Closed today</span>`;
+  const mins=now.getHours()*60+now.getMinutes(), [oh,om]=h.open.split(':').map(Number), [ch,cm]=h.close.split(':').map(Number), open=oh*60+om, close=ch*60+cm;
+  const isOpen=close<open?(mins>=open||mins<close):(mins>=open&&mins<close);
+  return `<span class="status ${isOpen?'open':'closed'}">● ${isOpen?'Open now':'Closed'}</span>`;
+}
 function card(p){
-  return `<article class="card" tabindex="0" data-place="${p.id}">
-    <div class="card-top"><span class="badge">${esc(p.category)}</span><span class="rating">★ ${p.rating.toFixed(1)}</span></div>
+  const fav=favorites.has(p.id);
+  return `<article class="card photo-card" tabindex="0" data-place="${p.id}">
+    <div class="photo-wrap"><img src="${imageFor(p)}" alt="${esc(p.name)} Bengaluru" loading="lazy" onerror="this.src='https://loremflickr.com/900/600/bengaluru?lock=${p.id}'"><button class="fav-btn ${fav?'saved':''}" data-fav="${p.id}" aria-label="${fav?'Remove from':'Add to'} favorites">${fav?'♥':'♡'}</button></div>
+    <div class="card-inner"><div class="card-top"><span class="badge">${esc(p.category)}</span><span class="rating">★ ${p.rating.toFixed(1)}</span></div>
     <h3>${esc(p.name)}</h3><div class="meta">${esc(p.type)} · ${esc(p.area)}</div>
-    <p class="desc">${esc(p.description)}</p>
-    <div class="card-bottom"><span class="price">${money(p.price)}</span><span class="view-link">View details →</span></div>
+    <div class="card-info"><span>${PRICE_LABELS[p.price]}</span>${statusFor(p)}<span>${distanceLabel(p)}</span></div>
+    <p class="desc">${esc(p.description)}</p><div class="card-bottom"><span class="price">${money(p.price)}</span><span class="view-link">View details →</span></div></div>
   </article>`;
 }
 function openPlaceModal(id){
   const p=PLACES.find(x=>x.id===id); if(!p)return;
-  $("#modalCategory").textContent=p.category;
-  $("#modalRating").textContent=`★ ${p.rating.toFixed(1)}`;
-  $("#modalTitle").textContent=p.name;
-  $("#modalMeta").textContent=`${p.type} · ${p.area} · ${money(p.price)}`;
-  $("#modalDescription").textContent=p.description;
-  $("#modalMaps").href=p.maps;
-  $("#placeModal").classList.add("open");
-  $("#placeModal").setAttribute("aria-hidden","false");
-  document.body.classList.add("modal-open");
+  $("#modalImage").src=imageFor(p); $("#modalImage").alt=p.name;
+  $("#modalCategory").textContent=p.category; $("#modalRating").textContent=`★ ${p.rating.toFixed(1)}`; $("#modalTitle").textContent=p.name;
+  $("#modalMeta").textContent=`${p.type} · ${p.area} · ${PRICE_LABELS[p.price]}`; $("#modalDescription").textContent=p.description;
+  $("#modalDistance").textContent=distanceLabel(p); $("#modalStatus").innerHTML=statusFor(p); $("#modalMaps").href=p.maps;
+  $("#modalFav").textContent=favorites.has(p.id)?"♥ Saved":"♡ Save to Favorites"; $("#modalFav").onclick=()=>{toggleFavorite(p.id);$("#modalFav").textContent=favorites.has(p.id)?"♥ Saved":"♡ Save to Favorites"};
+  $("#placeModal").classList.add("open");$("#placeModal").setAttribute("aria-hidden","false");document.body.classList.add("modal-open");
 }
-function closePlaceModal(){
-  $("#placeModal").classList.remove("open");
-  $("#placeModal").setAttribute("aria-hidden","true");
-  document.body.classList.remove("modal-open");
+function closePlaceModal(){$("#placeModal").classList.remove("open");$("#placeModal").setAttribute("aria-hidden","true");document.body.classList.remove("modal-open")}
+function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);localStorage.setItem("namma-favorites",JSON.stringify([...favorites]));render();toast(favorites.has(id)?"Added to favorites":"Removed from favorites")}
+function locateMe(){
+  if(!navigator.geolocation){toast("Location is not supported by this browser");return}
+  toast("Requesting your location…"); navigator.geolocation.getCurrentPosition(pos=>{userLocation={lat:pos.coords.latitude,lng:pos.coords.longitude};$("#nearMeBtn").classList.add("active");$("#nearMeBtn").textContent="📍 Near me";render();map.setView([userLocation.lat,userLocation.lng],13);L.circleMarker([userLocation.lat,userLocation.lng],{radius:8,weight:3}).addTo(map).bindPopup("You are here");toast("Sorted by distance from you")},()=>toast("Location permission was not granted"),{enableHighAccuracy:true,timeout:10000});
 }
-
-function initMap(){
-  map=L.map("map",{scrollWheelZoom:false}).setView([12.9716,77.5946],11);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
-}
-function updateMarkers(){
-  markers.forEach(m=>m.remove());markers=[];
-  filtered.forEach(p=>{
-    const m=L.marker([p.lat,p.lng]).addTo(map);
-    m.bindPopup(`<strong>${esc(p.name)}</strong><br><span>${esc(p.type)} · ${esc(p.area)}</span><br><b>★ ${p.rating.toFixed(1)} · ${money(p.price)}</b><br><br><a href="${p.maps}" target="_blank" rel="noopener">Open in Google Maps ↗</a>`);
-    markers.push(m);
-  });
-  fitMap(false);
-}
-function fitMap(showToast=true){
-  if(!markers.length)return;
-  const group=L.featureGroup(markers);map.fitBounds(group.getBounds().pad(.15));
-  if(showToast)toast("Map fitted to your filtered results");
-}
+function distanceKm(lat1,lon1,lat2,lon2){const R=6371,dLat=(lat2-lat1)*Math.PI/180,dLon=(lon2-lon1)*Math.PI/180,a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))}
+function initMap(){map=L.map("map",{scrollWheelZoom:false}).setView([12.9716,77.5946],11);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map)}
+function markerIcon(p){return L.divIcon({className:'custom-marker',html:`<span class="marker-pin price-${p.price}"><i>${money(p.price)}</i></span>`,iconSize:[42,42],iconAnchor:[21,21]})}
+function updateMarkers(){markers.forEach(m=>m.remove());markers=[];filtered.forEach(p=>{const m=L.marker([p.lat,p.lng],{icon:markerIcon(p)}).addTo(map);m.bindPopup(`<strong>${esc(p.name)}</strong><br><span>${esc(p.type)} · ${esc(p.area)}</span><br><b>★ ${p.rating.toFixed(1)} · ${PRICE_LABELS[p.price]}</b><br>${userLocation?`<small>${distanceLabel(p)}</small><br>`:''}<br><a href="${p.maps}" target="_blank" rel="noopener">📍 Open in Google Maps</a>`);markers.push(m)});fitMap(false)}
+function fitMap(showToast=true){if(!markers.length)return;map.fitBounds(L.featureGroup(markers).getBounds().pad(.15));if(showToast)toast("Map fitted to your filtered results")}
 function toast(t){const x=$("#toast");x.textContent=t;x.classList.add("show");setTimeout(()=>x.classList.remove("show"),1800)}
 function toggleTheme(){document.body.classList.toggle("dark");$("#themeBtn").textContent=document.body.classList.contains("dark")?"☀":"☾";localStorage.setItem("namma-theme",document.body.classList.contains("dark")?"dark":"light")}
 if(localStorage.getItem("namma-theme")==="dark"){document.body.classList.add("dark");setTimeout(()=>$("#themeBtn").textContent="☀",0)}

@@ -16,7 +16,7 @@
     <a href="#explore">Explore</a>
     <a href="#map-section">Map</a>
   </nav>
-  <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button>
+  <div class="top-actions"><button id="nearMeBtn" class="icon-btn">📍 Near me</button><button id="favoritesBtn" class="icon-btn">♡ Favorites</button><button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button></div>
 </header>
 
 <main>
@@ -89,11 +89,14 @@
   <div class="modal-backdrop" data-close-modal></div>
   <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <img id="modalImage" class="modal-image" alt="">
     <div class="modal-body">
       <div class="card-top"><span id="modalCategory" class="badge"></span><span id="modalRating" class="rating"></span></div>
       <h2 id="modalTitle"></h2>
       <div id="modalMeta" class="meta"></div>
       <p id="modalDescription" class="desc"></p>
+      <div class="modal-stats"><span id="modalStatus"></span><span id="modalDistance"></span></div>
+      <button id="modalFav" class="modal-fav">♡ Save to Favorites</button>
       <a id="modalMaps" class="modal-map-btn" target="_blank" rel="noopener">📍 Open in Google Maps</a>
     </div>
   </div>

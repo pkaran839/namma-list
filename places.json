@@ -10,7 +10,9 @@
     "description": "standing-only darshini done right since forever.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Umesh+Refreshments,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Umesh+Refreshments,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Umesh+Refreshments?lock=1",
+    "hours": null
   },
   {
     "id": 2,
@@ -23,7 +25,9 @@
     "description": "Frazer Town biryani institution. Go hungry.",
     "lat": 13.0086,
     "lng": 77.6294,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Chichabas+Taj,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Chichabas+Taj,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Chichabas+Taj?lock=2",
+    "hours": null
   },
   {
     "id": 3,
@@ -36,7 +40,9 @@
     "description": "Gowda and Mangalorean thalis by reservation only. Plan ahead.",
     "lat": 12.9841,
     "lng": 77.6179,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bengaluru+Oota+Company,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bengaluru+Oota+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bengaluru+Oota+Company?lock=3",
+    "hours": null
   },
   {
     "id": 4,
@@ -49,7 +55,9 @@
     "description": "Heritage Karnataka food with white-tablecloth energy.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Oota+Bangalore,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Oota+Bangalore,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Oota+Bangalore?lock=4",
+    "hours": null
   },
   {
     "id": 5,
@@ -62,7 +70,9 @@
     "description": "A Bengaluru institution known for classic South Indian breakfast.",
     "lat": 12.9568,
     "lng": 77.5948,
-    "maps": "https://www.google.com/maps/search/?api=1&query=MTR+1924,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=MTR+1924,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,MTR+1924?lock=5",
+    "hours": null
   },
   {
     "id": 6,
@@ -75,7 +85,9 @@
     "description": "St. Mark's Road forever. Mutton cutlets and history.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Koshy's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Koshy's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Koshys?lock=6",
+    "hours": null
   },
   {
     "id": 7,
@@ -88,7 +100,9 @@
     "description": "Eat a dosa under the trees in one of Bengaluru's classic spots.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Airlines+Hotel,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Airlines+Hotel,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Airlines+Hotel?lock=7",
+    "hours": null
   },
   {
     "id": 8,
@@ -101,7 +115,9 @@
     "description": "Donne biryani ground zero. Go early.",
     "lat": 12.9041,
     "lng": 77.5866,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Shivaji+Military+Hotel,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Shivaji+Military+Hotel,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Shivaji+Military+Hotel?lock=8",
+    "hours": null
   },
   {
     "id": 9,
@@ -114,7 +130,9 @@
     "description": "Soft idlis, classic breakfast and standing-room energy.",
     "lat": 12.9987,
     "lng": 77.5662,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Veena+Stores,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Veena+Stores,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Veena+Stores?lock=9",
+    "hours": null
   },
   {
     "id": 10,
@@ -127,7 +145,9 @@
     "description": "Andhra meals on banana leaf and plenty of spice.",
     "lat": 12.9764,
     "lng": 77.5946,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nagarjuna,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nagarjuna,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nagarjuna?lock=10",
+    "hours": null
   },
   {
     "id": 11,
@@ -140,7 +160,9 @@
     "description": "A classic late-night kebab-and-rice stop.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Empire,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Empire,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hotel+Empire?lock=11",
+    "hours": null
   },
   {
     "id": 12,
@@ -153,7 +175,9 @@
     "description": "Mangalorean seafood institution.",
     "lat": 12.9961,
     "lng": 77.5887,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Fishland,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hotel+Fishland,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hotel+Fishland?lock=12",
+    "hours": null
   },
   {
     "id": 13,
@@ -166,7 +190,9 @@
     "description": "Homestyle Mangalorean thali. Unfussy and real.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Appaji+Mane,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Appaji+Mane,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Appaji+Mane?lock=13",
+    "hours": null
   },
   {
     "id": 14,
@@ -179,7 +205,9 @@
     "description": "Idli maximalism. Check current opening status before visiting.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Stuffs+of+Idli,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Stuffs+of+Idli,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Stuffs+of+Idli?lock=14",
+    "hours": null
   },
   {
     "id": 15,
@@ -192,7 +220,9 @@
     "description": "A legendary benne masala dosa destination.",
     "lat": 12.9409,
     "lng": 77.5762,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Vidyarthi+Bhavan,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Vidyarthi+Bhavan,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Vidyarthi+Bhavan?lock=15",
+    "hours": null
   },
   {
     "id": 16,
@@ -205,7 +235,9 @@
     "description": "Crispy benne dosa and classic Bengaluru breakfast.",
     "lat": 13.0011,
     "lng": 77.5673,
-    "maps": "https://www.google.com/maps/search/?api=1&query=CTR+(Shri+Sagar),Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=CTR+(Shri+Sagar),Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,CTR+Shri+Sagar?lock=16",
+    "hours": null
   },
   {
     "id": 17,
@@ -218,7 +250,9 @@
     "description": "Idli, vada, chutney and filter coffee.",
     "lat": 12.9385,
     "lng": 77.5751,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Brahmin's+Coffee+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Brahmin's+Coffee+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Brahmins+Coffee+Bar?lock=17",
+    "hours": null
   },
   {
     "id": 18,
@@ -231,7 +265,9 @@
     "description": "Ghee podi idli and fast-moving queues.",
     "lat": 12.9736,
     "lng": 77.6364,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Rameshwaram+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Rameshwaram+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Rameshwaram+Cafe?lock=18",
+    "hours": null
   },
   {
     "id": 19,
@@ -244,7 +280,9 @@
     "description": "Pocket-friendly dosa and zero-frills Bengaluru charm.",
     "lat": 12.9298,
     "lng": 77.5938,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Taaza+Thindi,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Taaza+Thindi,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Taaza+Thindi?lock=19",
+    "hours": null
   },
   {
     "id": 20,
@@ -257,7 +295,9 @@
     "description": "Modern Italian dining with a polished city setting.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=LUPA,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=LUPA,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,LUPA?lock=20",
+    "hours": null
   },
   {
     "id": 21,
@@ -270,7 +310,9 @@
     "description": "Wazwan-style Kashmiri food.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sarposh,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sarposh,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sarposh?lock=21",
+    "hours": null
   },
   {
     "id": 22,
@@ -283,7 +325,9 @@
     "description": "Moody lighting, shared plates and a date-night feel.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Rumi,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rumi,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Rumi?lock=22",
+    "hours": null
   },
   {
     "id": 23,
@@ -296,7 +340,9 @@
     "description": "Everything cooked over open flame.",
     "lat": 13.029,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fireside,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fireside,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fireside?lock=23",
+    "hours": null
   },
   {
     "id": 24,
@@ -309,7 +355,9 @@
     "description": "Goan home-style flavours.",
     "lat": 12.9772,
     "lng": 77.643,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Klaa,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Klaa,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Klaa?lock=24",
+    "hours": null
   },
   {
     "id": 25,
@@ -322,7 +370,9 @@
     "description": "Known for burrata-topped pizza and a polished dining experience.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+4P's+Indiranagar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+4P's+Indiranagar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pizza+4Ps+Indiranagar?lock=25",
+    "hours": null
   },
   {
     "id": 26,
@@ -335,7 +385,9 @@
     "description": "Worth the drive north for an inventive menu.",
     "lat": 13.0254,
     "lng": 77.6411,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fervor+Restaurant,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fervor+Restaurant,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fervor+Restaurant?lock=26",
+    "hours": null
   },
   {
     "id": 27,
@@ -348,7 +400,9 @@
     "description": "Modern South Indian tasting plates.",
     "lat": 12.9769,
     "lng": 77.6146,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nāvu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nāvu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nvu?lock=27",
+    "hours": null
   },
   {
     "id": 28,
@@ -361,7 +415,9 @@
     "description": "Kaya toast, laksa and Malaysian comfort food.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Kopitiam+Lah,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Kopitiam+Lah,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Kopitiam+Lah?lock=28",
+    "hours": null
   },
   {
     "id": 29,
@@ -374,7 +430,9 @@
     "description": "Dimsum and ramen in a lively setting.",
     "lat": 12.982,
     "lng": 77.6452,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lucky+Chan,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lucky+Chan,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lucky+Chan?lock=29",
+    "hours": null
   },
   {
     "id": 30,
@@ -387,7 +445,9 @@
     "description": "Tonkotsu ramen and Japanese-inspired bowls.",
     "lat": 12.914,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo+Ramen+Suzuki,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tokyo+Ramen+Suzuki,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tokyo+Ramen+Suzuki?lock=30",
+    "hours": null
   },
   {
     "id": 31,
@@ -400,7 +460,9 @@
     "description": "An established Korean spot with generous banchan.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Soo+Ra+Sang,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Soo+Ra+Sang,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Soo+Ra+Sang?lock=31",
+    "hours": null
   },
   {
     "id": 32,
@@ -413,7 +475,9 @@
     "description": "Korean comfort food with a family-run feel.",
     "lat": 13.029,
     "lng": 77.6378,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Dam's+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Dam's+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Dams+Kitchen?lock=32",
+    "hours": null
   },
   {
     "id": 33,
@@ -426,7 +490,9 @@
     "description": "Pho and banh mi with home-kitchen character.",
     "lat": 12.9772,
     "lng": 77.643,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Phobidden+Fruit+Vietnamese+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Phobidden+Fruit+Vietnamese+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Phobidden+Fruit+Vietnamese+Kitchen?lock=33",
+    "hours": null
   },
   {
     "id": 34,
@@ -439,7 +505,9 @@
     "description": "Malabar biryani and pathiri.",
     "lat": 12.9328,
     "lng": 77.6212,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Moplah's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Moplah's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Moplahs?lock=34",
+    "hours": null
   },
   {
     "id": 35,
@@ -452,7 +520,9 @@
     "description": "Sourdough pizza with a loyal following.",
     "lat": 12.9316,
     "lng": 77.6256,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Si+Nonna's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Si+Nonna's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Si+Nonnas?lock=35",
+    "hours": null
   },
   {
     "id": 36,
@@ -465,7 +535,9 @@
     "description": "NY-style slices and late-night energy.",
     "lat": 12.9602,
     "lng": 77.5956,
-    "maps": "https://www.google.com/maps/search/?api=1&query=23rd+Street+Pizza,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=23rd+Street+Pizza,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,23rd+Street+Pizza?lock=36",
+    "hours": null
   },
   {
     "id": 37,
@@ -478,7 +550,9 @@
     "description": "Handmade pasta with a neighbourhood feel.",
     "lat": 12.9985,
     "lng": 77.5898,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Maffei+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Maffei+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Maffei+Kitchen?lock=37",
+    "hours": null
   },
   {
     "id": 38,
@@ -491,7 +565,9 @@
     "description": "Japanese sandos with limited availability.",
     "lat": 12.9752,
     "lng": 77.599,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sando+Club,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sando+Club,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sando+Club?lock=38",
+    "hours": null
   },
   {
     "id": 39,
@@ -504,7 +580,9 @@
     "description": "A popular noodle bar where reservations can be useful.",
     "lat": 12.9592,
     "lng": 77.5959,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Naru+Noodle+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Naru+Noodle+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Naru+Noodle+Bar?lock=39",
+    "hours": null
   },
   {
     "id": 40,
@@ -517,7 +595,9 @@
     "description": "Tasting-menu experience on a working farm.",
     "lat": 12.9012,
     "lng": 77.5533,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Farmlore,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Farmlore,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Farmlore?lock=40",
+    "hours": null
   },
   {
     "id": 41,
@@ -530,7 +610,9 @@
     "description": "Long-running fine dining focused on coastal and South Indian cuisine.",
     "lat": 12.9716,
     "lng": 77.5924,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Karavalli,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Karavalli,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Karavalli?lock=41",
+    "hours": null
   },
   {
     "id": 42,
@@ -543,7 +625,9 @@
     "description": "Rooftop fine dining in a polished setting.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Salvadore's+Fine+Dining,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Salvadore's+Fine+Dining,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Salvadores+Fine+Dining?lock=42",
+    "hours": null
   },
   {
     "id": 43,
@@ -556,7 +640,9 @@
     "description": "Cosy candle-lit Italian dining.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pinocchio,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pinocchio,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pinocchio?lock=43",
+    "hours": null
   },
   {
     "id": 44,
@@ -569,7 +655,9 @@
     "description": "No-frills pizza.",
     "lat": 12.9781,
     "lng": 77.6201,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+No+Cap,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+No+Cap,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pizza+No+Cap?lock=44",
+    "hours": null
   },
   {
     "id": 45,
@@ -582,7 +670,9 @@
     "description": "Thai cafe with bold flavours.",
     "lat": 12.9029,
     "lng": 77.5811,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Mai+Prathum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Mai+Prathum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Mai+Prathum?lock=45",
+    "hours": null
   },
   {
     "id": 46,
@@ -595,7 +685,9 @@
     "description": "Assamese and Northeastern home cooking.",
     "lat": 12.94,
     "lng": 77.6245,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Gam's+Kitchen,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Gam's+Kitchen,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Gams+Kitchen?lock=46",
+    "hours": null
   },
   {
     "id": 47,
@@ -608,7 +700,9 @@
     "description": "Quiet, minimal, serious coffee.",
     "lat": 12.9636,
     "lng": 77.6444,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Still+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Still+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Still+Coffee?lock=47",
+    "hours": null
   },
   {
     "id": 48,
@@ -621,7 +715,9 @@
     "description": "Small menu with carefully made specialty coffee.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=anāma+coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=anāma+coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,anma+coffee?lock=48",
+    "hours": null
   },
   {
     "id": 49,
@@ -634,7 +730,9 @@
     "description": "Single-origin coffee in a beautiful space.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ARAKU+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ARAKU+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ARAKU+Coffee?lock=49",
+    "hours": null
   },
   {
     "id": 50,
@@ -647,7 +745,9 @@
     "description": "Specialty brews from tribal-grown beans.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tribal+Brew+Daily,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tribal+Brew+Daily,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tribal+Brew+Daily?lock=50",
+    "hours": null
   },
   {
     "id": 51,
@@ -660,7 +760,9 @@
     "description": "Subko's Bengaluru outpost with coffee and bakes.",
     "lat": 12.934,
     "lng": 77.6267,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Craftery+by+Subko,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Craftery+by+Subko,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Craftery+by+Subko?lock=51",
+    "hours": null
   },
   {
     "id": 52,
@@ -673,7 +775,9 @@
     "description": "Coffee, calm and good pastries.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Muru+Muru,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Muru+Muru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Muru+Muru?lock=52",
+    "hours": null
   },
   {
     "id": 53,
@@ -686,7 +790,9 @@
     "description": "Coffee, books and pie.",
     "lat": 12.9748,
     "lng": 77.6419,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Paper+&+Pie,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Paper+&+Pie,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Paper++Pie?lock=53",
+    "hours": null
   },
   {
     "id": 54,
@@ -699,7 +805,9 @@
     "description": "Modern take on chai.",
     "lat": 12.9736,
     "lng": 77.6364,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Chai+Days,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Chai+Days,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Chai+Days?lock=54",
+    "hours": null
   },
   {
     "id": 55,
@@ -712,7 +820,9 @@
     "description": "Cafe energy with a solid brunch offering.",
     "lat": 12.9616,
     "lng": 77.597,
-    "maps": "https://www.google.com/maps/search/?api=1&query=WIP,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=WIP,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,WIP?lock=55",
+    "hours": null
   },
   {
     "id": 56,
@@ -725,7 +835,9 @@
     "description": "All-day breakfast favourite.",
     "lat": 12.9388,
     "lng": 77.6289,
-    "maps": "https://www.google.com/maps/search/?api=1&query=The+Hole+In+The+Wall+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Hole+In+The+Wall+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Hole+In+The+Wall+Cafe?lock=56",
+    "hours": null
   },
   {
     "id": 57,
@@ -738,7 +850,9 @@
     "description": "Ceremonial-grade matcha.",
     "lat": 12.9674,
     "lng": 77.5989,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sakura+Matcha+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sakura+Matcha+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sakura+Matcha+Bar?lock=57",
+    "hours": null
   },
   {
     "id": 58,
@@ -751,7 +865,9 @@
     "description": "Estate-grown coffee and experimental brews.",
     "lat": 12.9829,
     "lng": 77.6223,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Maverick+&+Farmer+Coffee,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Maverick+&+Farmer+Coffee,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Maverick++Farmer+Coffee?lock=58",
+    "hours": null
   },
   {
     "id": 59,
@@ -764,7 +880,9 @@
     "description": "Books, courtyard seating and filter coffee.",
     "lat": 12.9937,
     "lng": 77.5876,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Champaca+Bookstore+Cafe,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Champaca+Bookstore+Cafe,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Champaca+Bookstore+Cafe?lock=59",
+    "hours": null
   },
   {
     "id": 60,
@@ -777,7 +895,9 @@
     "description": "Slow coffee in a relaxed setting.",
     "lat": 12.9154,
     "lng": 77.6123,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nerlu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nerlu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nerlu?lock=60",
+    "hours": null
   },
   {
     "id": 61,
@@ -790,7 +910,9 @@
     "description": "Neighbourhood spot with rotating specialty brews.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fresh+Factory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fresh+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fresh+Factory?lock=61",
+    "hours": null
   },
   {
     "id": 62,
@@ -803,7 +925,9 @@
     "description": "Quiet specialty coffee.",
     "lat": 12.9041,
     "lng": 77.5866,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Kinya,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Kinya,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Kinya?lock=62",
+    "hours": null
   },
   {
     "id": 63,
@@ -816,7 +940,9 @@
     "description": "Patisserie and cafe known for serious baking.",
     "lat": 12.9561,
     "lng": 77.6343,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lavonne+Café,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lavonne+Café,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lavonne+Caf?lock=63",
+    "hours": null
   },
   {
     "id": 64,
@@ -829,7 +955,9 @@
     "description": "Small-batch ice cream.",
     "lat": 12.9832,
     "lng": 77.6408,
-    "maps": "https://www.google.com/maps/search/?api=1&query=LICK+by+Lavonne,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=LICK+by+Lavonne,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,LICK+by+Lavonne?lock=64",
+    "hours": null
   },
   {
     "id": 65,
@@ -842,7 +970,9 @@
     "description": "Acai bowls and fresh toppings.",
     "lat": 12.982,
     "lng": 77.6452,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Acai+Theory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Acai+Theory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Acai+Theory?lock=65",
+    "hours": null
   },
   {
     "id": 66,
@@ -855,7 +985,9 @@
     "description": "Cult-style bakes and limited drops.",
     "lat": 12.9274,
     "lng": 77.5927,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Juny's+Bakehouse,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Juny's+Bakehouse,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Junys+Bakehouse?lock=66",
+    "hours": null
   },
   {
     "id": 67,
@@ -868,7 +1000,9 @@
     "description": "Japanese-inspired desserts and soft serve.",
     "lat": 12.9796,
     "lng": 77.6441,
-    "maps": "https://www.google.com/maps/search/?api=1&query=K+A+W+A+I+I,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=K+A+W+A+I+I,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,K+A+W+A+I+I?lock=67",
+    "hours": null
   },
   {
     "id": 68,
@@ -881,7 +1015,9 @@
     "description": "A Bengaluru classic, especially for Death by Chocolate.",
     "lat": 12.9698,
     "lng": 77.7478,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Corner+House+Ice+Cream,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Corner+House+Ice+Cream,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Corner+House+Ice+Cream?lock=68",
+    "hours": null
   },
   {
     "id": 69,
@@ -894,7 +1030,9 @@
     "description": "Old-school sundaes and fruit desserts.",
     "lat": 12.9704,
     "lng": 77.5968,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lakeview+Milk+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lakeview+Milk+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lakeview+Milk+Bar?lock=69",
+    "hours": null
   },
   {
     "id": 70,
@@ -907,7 +1045,9 @@
     "description": "Popular scoops and a lively queue.",
     "lat": 12.976,
     "lng": 77.6375,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Milano+Ice+Cream,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Milano+Ice+Cream,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Milano+Ice+Cream?lock=70",
+    "hours": null
   },
   {
     "id": 71,
@@ -920,7 +1060,9 @@
     "description": "Traditional sweets, especially Mysore pak.",
     "lat": 12.9876,
     "lng": 77.5551,
-    "maps": "https://www.google.com/maps/search/?api=1&query=O.G.+Variar+&+Sons,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=O.G.+Variar+&+Sons,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,OG+Variar++Sons?lock=71",
+    "hours": null
   },
   {
     "id": 72,
@@ -933,7 +1075,9 @@
     "description": "Desserts with a nostalgic Bengaluru feel.",
     "lat": 12.9029,
     "lng": 77.5811,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nenapu,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nenapu,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nenapu?lock=72",
+    "hours": null
   },
   {
     "id": 73,
@@ -946,7 +1090,9 @@
     "description": "Patisserie bakes for a proper sugar rush.",
     "lat": 12.9125,
     "lng": 77.5855,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Harley's,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Harley's,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Harleys?lock=73",
+    "hours": null
   },
   {
     "id": 74,
@@ -959,7 +1105,9 @@
     "description": "Old-school bakery with fresh bakes.",
     "lat": 12.9686,
     "lng": 77.6044,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Fathima+Bakery,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fathima+Bakery,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Fathima+Bakery?lock=74",
+    "hours": null
   },
   {
     "id": 75,
@@ -972,7 +1120,9 @@
     "description": "One of Bengaluru's best-known craft beer institutions.",
     "lat": 12.9808,
     "lng": 77.6397,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toit+Brewpub?lock=75",
+    "hours": null
   },
   {
     "id": 76,
@@ -985,7 +1135,9 @@
     "description": "American-style ales and craft beer.",
     "lat": 12.9728,
     "lng": 77.5979,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Arbor+Brewing+Company?lock=76",
+    "hours": null
   },
   {
     "id": 77,
@@ -998,7 +1150,9 @@
     "description": "Affordable pints, peanuts and zero pretence.",
     "lat": 12.9784,
     "lng": 77.6386,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bob's+Bar,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bob's+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bobs+Bar?lock=77",
+    "hours": null
   },
   {
     "id": 78,
@@ -1011,7 +1165,9 @@
     "description": "Bengaluru craft beer and taproom atmosphere.",
     "lat": 12.9988,
     "lng": 77.6822,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Geist+Brewing+Factory?lock=78",
+    "hours": null
   },
   {
     "id": 79,
@@ -1024,7 +1180,9 @@
     "description": "Hidden-bar atmosphere and creative cocktails.",
     "lat": 12.9576,
     "lng": 77.6367,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ZLB23+Speakeasy,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ZLB23+Speakeasy,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ZLB23+Speakeasy?lock=79",
+    "hours": null
   },
   {
     "id": 80,
@@ -1037,7 +1195,9 @@
     "description": "Surrealist-inspired cocktail setting.",
     "lat": 12.968,
     "lng": 77.5957,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Dali+and+Gala,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Dali+and+Gala,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Dali+and+Gala?lock=80",
+    "hours": null
   },
   {
     "id": 81,
@@ -1050,7 +1210,9 @@
     "description": "Morning run followed by breakfast.",
     "lat": 12.9668,
     "lng": 77.5902,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park+morning+run,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park+morning+run,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Cubbon+Park+morning+run?lock=81",
+    "hours": null
   },
   {
     "id": 82,
@@ -1063,7 +1225,9 @@
     "description": "Secondhand books and an easy slow-date plan.",
     "lat": 12.9764,
     "lng": 77.5946,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Blossom+Book+House,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Blossom+Book+House,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Blossom+Book+House?lock=82",
+    "hours": null
   },
   {
     "id": 83,
@@ -1076,7 +1240,9 @@
     "description": "Early drive for sunrise and open views.",
     "lat": 13.3738,
     "lng": 77.6879,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Nandi+Hills+sunrise,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Nandi+Hills+sunrise,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Nandi+Hills+sunrise?lock=83",
+    "hours": null
   },
   {
     "id": 84,
@@ -1089,7 +1255,9 @@
     "description": "Art museum date followed by coffee.",
     "lat": 12.974,
     "lng": 77.5935,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Museum+of+Art+&+Photography,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Museum+of+Art+&+Photography,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Museum+of+Art++Photography?lock=84",
+    "hours": null
   },
   {
     "id": 85,
@@ -1102,7 +1270,9 @@
     "description": "Night trek and sunrise above the clouds.",
     "lat": 13.3952,
     "lng": 77.7273,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Skandagiri+sunrise+trek,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Skandagiri+sunrise+trek,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Skandagiri+sunrise+trek?lock=85",
+    "hours": null
   },
   {
     "id": 86,
@@ -1115,7 +1285,9 @@
     "description": "Large historic garden with the famous glasshouse.",
     "lat": 12.9568,
     "lng": 77.5948,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Botanical+Garden,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Botanical+Garden,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Lalbagh+Botanical+Garden?lock=86",
+    "hours": null
   },
   {
     "id": 87,
@@ -1128,7 +1300,9 @@
     "description": "Go early for the colourful flower market.",
     "lat": 12.9409,
     "lng": 77.5762,
-    "maps": "https://www.google.com/maps/search/?api=1&query=KR+Market+flower+market,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=KR+Market+flower+market,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,KR+Market+flower+market?lock=87",
+    "hours": null
   },
   {
     "id": 88,
@@ -1141,7 +1315,9 @@
     "description": "A Bengaluru theatre staple with frequent performances.",
     "lat": 12.9053,
     "lng": 77.5822,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ranga+Shankara,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ranga+Shankara,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Ranga+Shankara?lock=88",
+    "hours": null
   },
   {
     "id": 89,
@@ -1154,7 +1330,9 @@
     "description": "Historic Tudor-style palace in the middle of the city.",
     "lat": 12.9901,
     "lng": 77.5909,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bangalore+Palace,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bangalore+Palace,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bangalore+Palace?lock=89",
+    "hours": null
   },
   {
     "id": 90,
@@ -1167,7 +1345,9 @@
     "description": "Bookshops, cafes and an easy city walk.",
     "lat": 12.9668,
     "lng": 77.5902,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Church+Street+stroll,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Church+Street+stroll,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Church+Street+stroll?lock=90",
+    "hours": null
   },
   {
     "id": 91,
@@ -1180,7 +1360,9 @@
     "description": "A concentrated street-food crawl.",
     "lat": 12.9564,
     "lng": 77.575,
-    "maps": "https://www.google.com/maps/search/?api=1&query=VV+Puram+food+street,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=VV+Puram+food+street,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,VV+Puram+food+street?lock=91",
+    "hours": null
   },
   {
     "id": 92,
@@ -1193,7 +1375,9 @@
     "description": "Secondhand books and bargain hunting.",
     "lat": 12.9604,
     "lng": 77.6014,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Avenue+Road+book+stalls,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Avenue+Road+book+stalls,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Avenue+Road+book+stalls?lock=92",
+    "hours": null
   },
   {
     "id": 93,
@@ -1206,7 +1390,9 @@
     "description": "Modern art in a heritage setting.",
     "lat": 12.9961,
     "lng": 77.5887,
-    "maps": "https://www.google.com/maps/search/?api=1&query=NGMA+Bengaluru,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=NGMA+Bengaluru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,NGMA+Bengaluru?lock=93",
+    "hours": null
   },
   {
     "id": 94,
@@ -1219,7 +1405,9 @@
     "description": "Popular for morning walks and cycling.",
     "lat": 12.8862,
     "lng": 77.5393,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Turahalli+forest,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Turahalli+forest,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Turahalli+forest?lock=94",
+    "hours": null
   },
   {
     "id": 95,
@@ -1232,7 +1420,9 @@
     "description": "Interactive museum dedicated to Indian music.",
     "lat": 12.9077,
     "lng": 77.5833,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Indian+Music+Experience+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Indian+Music+Experience+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Indian+Music+Experience+Museum?lock=95",
+    "hours": null
   },
   {
     "id": 96,
@@ -1245,7 +1435,9 @@
     "description": "Watches and machine-tool history.",
     "lat": 13.0458,
     "lng": 77.5482,
-    "maps": "https://www.google.com/maps/search/?api=1&query=HMT+Heritage+Centre+&+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=HMT+Heritage+Centre+&+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,HMT+Heritage+Centre++Museum?lock=96",
+    "hours": null
   },
   {
     "id": 97,
@@ -1258,7 +1450,9 @@
     "description": "Specialist museum focused on Indian paper money.",
     "lat": 12.9692,
     "lng": 77.5913,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Rezwan+Razack's+Museum+of+Indian+Paper+Money,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Rezwan+Razack's+Museum+of+Indian+Paper+Money,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Rezwan+Razacks+Museum+of+Indian+Paper+Money?lock=97",
+    "hours": null
   },
   {
     "id": 98,
@@ -1271,7 +1465,9 @@
     "description": "Bengaluru's iconic green lung, ideal for walks, cycling and relaxed mornings.",
     "lat": 12.9763,
     "lng": 77.5929,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Cubbon+Park,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Cubbon+Park?lock=98",
+    "hours": null
   },
   {
     "id": 101,
@@ -1284,7 +1480,9 @@
     "description": "Historic wooden palace and museum connected with Tipu Sultan's era.",
     "lat": 12.9592,
     "lng": 77.5741,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Tipu+Sultan%27s+Summer+Palace,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Tipu+Sultan%27s+Summer+Palace,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Tipu+Sultans+Summer+Palace?lock=101",
+    "hours": null
   },
   {
     "id": 102,
@@ -1297,7 +1495,9 @@
     "description": "Central Bengaluru lake with greenery, walking areas and boating nearby.",
     "lat": 12.9819,
     "lng": 77.619,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Ulsoor+Lake,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Ulsoor+Lake,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Ulsoor+Lake?lock=102",
+    "hours": null
   },
   {
     "id": 103,
@@ -1310,7 +1510,9 @@
     "description": "Peaceful urban lake popular for evening walks and a quick city escape.",
     "lat": 13.012,
     "lng": 77.5747,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Sankey+Tank,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Sankey+Tank,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Sankey+Tank?lock=103",
+    "hours": null
   },
   {
     "id": 104,
@@ -1323,7 +1525,9 @@
     "description": "Large wildlife destination with zoo, safari and butterfly park experiences.",
     "lat": 12.8,
     "lng": 77.577,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bannerghatta+Biological+Park,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bannerghatta+Biological+Park,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bannerghatta+Biological+Park?lock=104",
+    "hours": null
   },
   {
     "id": 105,
@@ -1336,7 +1540,9 @@
     "description": "Hilltop temple complex with distinctive architecture and a lively cultural atmosphere.",
     "lat": 13.0106,
     "lng": 77.5511,
-    "maps": "https://www.google.com/maps/search/?api=1&query=ISKCON+Temple+Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=ISKCON+Temple+Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,ISKCON+Temple+Bengaluru?lock=105",
+    "hours": null
   },
   {
     "id": 106,
@@ -1349,7 +1555,9 @@
     "description": "One of Bengaluru's best-known heritage temples, famous for its monumental Nandi.",
     "lat": 12.9416,
     "lng": 77.5681,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Bull+Temple,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bull+Temple,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bull+Temple?lock=106",
+    "hours": null
   },
   {
     "id": 107,
@@ -1362,6 +1570,308 @@
     "description": "Interactive science and technology museum that works well for families and curious minds.",
     "lat": 12.9753,
     "lng": 77.5963,
-    "maps": "https://www.google.com/maps/search/?api=1&query=Visvesvaraya+Industrial+%26+Technological+Museum,Bengaluru"
+    "maps": "https://www.google.com/maps/search/?api=1&query=Visvesvaraya+Industrial+%26+Technological+Museum,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Visvesvaraya+Industrial++Technological+Museum?lock=107",
+    "hours": null
+  },
+  {
+    "id": 108,
+    "category": "Pubs & Nightlife",
+    "name": "Toit Brewpub",
+    "type": "Microbrewery / pub",
+    "area": "Indiranagar",
+    "rating": 4.4,
+    "price": 2,
+    "description": "Bengaluru’s iconic brewpub and a cornerstone of the city’s craft-beer scene.",
+    "lat": 12.9782,
+    "lng": 77.6408,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toit+Brewpub,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toit+Brewpub?lock=108",
+    "hours": null
+  },
+  {
+    "id": 109,
+    "category": "Pubs & Nightlife",
+    "name": "The Bier Library",
+    "type": "Craft beer bar",
+    "area": "Koramangala",
+    "rating": 4.3,
+    "price": 2,
+    "description": "Bookish, relaxed craft-beer destination with rotating taps and food.",
+    "lat": 12.9344,
+    "lng": 77.6147,
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Bier+Library,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Bier+Library?lock=109",
+    "hours": null
+  },
+  {
+    "id": 110,
+    "category": "Pubs & Nightlife",
+    "name": "Arbor Brewing Company",
+    "type": "Brewery",
+    "area": "Ashok Nagar",
+    "rating": 4.3,
+    "price": 3,
+    "description": "American-style craft brewery known for its hoppy beers.",
+    "lat": 12.9711,
+    "lng": 77.6052,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Arbor+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Arbor+Brewing+Company?lock=110",
+    "hours": null
+  },
+  {
+    "id": 111,
+    "category": "Pubs & Nightlife",
+    "name": "Pecos",
+    "type": "Classic rock pub",
+    "area": "Brigade Road",
+    "rating": 4.0,
+    "price": 1,
+    "description": "Old-school Bengaluru rock pub with a legendary budget-friendly vibe.",
+    "lat": 12.9719,
+    "lng": 77.6066,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Pecos,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Pecos?lock=111",
+    "hours": null
+  },
+  {
+    "id": 112,
+    "category": "Pubs & Nightlife",
+    "name": "Byg Brewski Brewing Company",
+    "type": "Mega brewery",
+    "area": "Hennur",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Huge brewery campus with outdoor seating, food and live entertainment.",
+    "lat": 13.0256,
+    "lng": 77.6432,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Byg+Brewski+Brewing+Company,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Byg+Brewski+Brewing+Company?lock=112",
+    "hours": null
+  },
+  {
+    "id": 113,
+    "category": "Pubs & Nightlife",
+    "name": "Windmills Craftworks",
+    "type": "Brewery & live music",
+    "area": "Whitefield",
+    "rating": 4.4,
+    "price": 3,
+    "description": "Premium brewery, dining and live jazz in Whitefield.",
+    "lat": 12.9762,
+    "lng": 77.7274,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Windmills+Craftworks,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Windmills+Craftworks?lock=113",
+    "hours": null
+  },
+  {
+    "id": 114,
+    "category": "Pubs & Nightlife",
+    "name": "The Permit Room",
+    "type": "Cocktail bar",
+    "area": "Lavelle Road",
+    "rating": 4.4,
+    "price": 3,
+    "description": "Modern Indian bar known for cocktails and a lively atmosphere.",
+    "lat": 12.9696,
+    "lng": 77.5962,
+    "maps": "https://www.google.com/maps/search/?api=1&query=The+Permit+Room,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,The+Permit+Room?lock=114",
+    "hours": null
+  },
+  {
+    "id": 115,
+    "category": "Pubs & Nightlife",
+    "name": "Communiti",
+    "type": "Brewery / pub",
+    "area": "Residency Road",
+    "rating": 4.4,
+    "price": 2,
+    "description": "Large social brewery with multiple seating zones and a lively crowd.",
+    "lat": 12.9672,
+    "lng": 77.6028,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Communiti,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Communiti?lock=115",
+    "hours": null
+  },
+  {
+    "id": 116,
+    "category": "Pubs & Nightlife",
+    "name": "Hard Rock Cafe Bengaluru",
+    "type": "Rock bar & restaurant",
+    "area": "St. Marks Road",
+    "rating": 4.3,
+    "price": 3,
+    "description": "Live music, rock memorabilia, burgers and cocktails.",
+    "lat": 12.974,
+    "lng": 77.6016,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hard+Rock+Cafe+Bengaluru,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Hard+Rock+Cafe+Bengaluru?lock=116",
+    "hours": null
+  },
+  {
+    "id": 117,
+    "category": "Pubs & Nightlife",
+    "name": "Big Pitcher",
+    "type": "Brewery",
+    "area": "Old Airport Road",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Large multi-level brewery with house beers and group-friendly seating.",
+    "lat": 12.9584,
+    "lng": 77.6472,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Big+Pitcher,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Big+Pitcher?lock=117",
+    "hours": null
+  },
+  {
+    "id": 118,
+    "category": "Pubs & Nightlife",
+    "name": "Geist Brewing Factory",
+    "type": "Brewery",
+    "area": "Whitefield",
+    "rating": 4.3,
+    "price": 2,
+    "description": "Independent brewery known for house-made beers and hearty food.",
+    "lat": 12.9692,
+    "lng": 77.749,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Geist+Brewing+Factory,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Geist+Brewing+Factory?lock=118",
+    "hours": null
+  },
+  {
+    "id": 119,
+    "category": "Pubs & Nightlife",
+    "name": "Biere Club",
+    "type": "Craft beer bar",
+    "area": "Lavelle Road",
+    "rating": 4.2,
+    "price": 2,
+    "description": "One of Bengaluru’s early microbreweries with a central location.",
+    "lat": 12.969,
+    "lng": 77.5968,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Biere+Club,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Biere+Club?lock=119",
+    "hours": null
+  },
+  {
+    "id": 120,
+    "category": "Pubs & Nightlife",
+    "name": "URU Brewpark",
+    "type": "Brewery / garden",
+    "area": "Hennur",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Garden-style brewery with a broad food menu and outdoor space.",
+    "lat": 13.0245,
+    "lng": 77.642,
+    "maps": "https://www.google.com/maps/search/?api=1&query=URU+Brewpark,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,URU+Brewpark?lock=120",
+    "hours": null
+  },
+  {
+    "id": 121,
+    "category": "Pubs & Nightlife",
+    "name": "High Ultra Lounge",
+    "type": "Rooftop lounge",
+    "area": "Malleshwaram",
+    "rating": 4.2,
+    "price": 3,
+    "description": "High-rise rooftop lounge with panoramic Bengaluru skyline views.",
+    "lat": 13.0115,
+    "lng": 77.5548,
+    "maps": "https://www.google.com/maps/search/?api=1&query=High+Ultra+Lounge,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,High+Ultra+Lounge?lock=121",
+    "hours": null
+  },
+  {
+    "id": 122,
+    "category": "Pubs & Nightlife",
+    "name": "Copitas",
+    "type": "Luxury cocktail bar",
+    "area": "Ulsoor",
+    "rating": 4.6,
+    "price": 3,
+    "description": "Luxury cocktail destination at Four Seasons Bengaluru.",
+    "lat": 12.9925,
+    "lng": 77.6215,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Copitas,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Copitas?lock=122",
+    "hours": null
+  },
+  {
+    "id": 123,
+    "category": "Pubs & Nightlife",
+    "name": "Skyye",
+    "type": "Rooftop lounge",
+    "area": "UB City",
+    "rating": 4.2,
+    "price": 3,
+    "description": "Upscale rooftop lounge with skyline views and cocktails.",
+    "lat": 12.9712,
+    "lng": 77.5969,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Skyye,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Skyye?lock=123",
+    "hours": null
+  },
+  {
+    "id": 124,
+    "category": "Pubs & Nightlife",
+    "name": "13th Floor",
+    "type": "Rooftop cocktail bar",
+    "area": "MG Road",
+    "rating": 4.2,
+    "price": 3,
+    "description": "Classic Bengaluru rooftop for sundowners and central-city views.",
+    "lat": 12.9744,
+    "lng": 77.605,
+    "maps": "https://www.google.com/maps/search/?api=1&query=13th+Floor,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,13th+Floor?lock=124",
+    "hours": null
+  },
+  {
+    "id": 125,
+    "category": "Pubs & Nightlife",
+    "name": "Toast & Tonic",
+    "type": "Upscale cocktail bar",
+    "area": "UB City",
+    "rating": 4.3,
+    "price": 3,
+    "description": "Stylish cocktail-led bar and restaurant in the UB City area.",
+    "lat": 12.971,
+    "lng": 77.5965,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Toast+&+Tonic,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Toast++Tonic?lock=125",
+    "hours": null
+  },
+  {
+    "id": 126,
+    "category": "Pubs & Nightlife",
+    "name": "Monkey Bar",
+    "type": "Gastropub",
+    "area": "Indiranagar",
+    "rating": 4.2,
+    "price": 2,
+    "description": "Casual gastropub with cocktails, food and an energetic crowd.",
+    "lat": 12.9789,
+    "lng": 77.6402,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Monkey+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Monkey+Bar?lock=126",
+    "hours": null
+  },
+  {
+    "id": 127,
+    "category": "Pubs & Nightlife",
+    "name": "Bob’s Bar",
+    "type": "Budget bar",
+    "area": "Indiranagar",
+    "rating": 4.2,
+    "price": 1,
+    "description": "No-frills Bengaluru bar known for straightforward drinks and value.",
+    "lat": 12.9792,
+    "lng": 77.6407,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Bob’s+Bar,Bengaluru",
+    "photo": "https://loremflickr.com/900/600/bengaluru,Bobs+Bar?lock=127",
+    "hours": null
   }
 ]
