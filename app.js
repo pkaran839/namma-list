@@ -1904,7 +1904,7 @@ function setup(){
   document.querySelector("[data-close-modal]").onclick=closePlaceModal;
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closePlaceModal()});
 }
-function render(){
+function render(fit=true){
   const q=$("#search").value.trim().toLowerCase(), area=$("#areaFilter").value, price=$("#priceFilter").value, rating=$("#ratingFilter").value, sort=$("#sortFilter").value;
   filtered=PLACES.filter(p=>{
     const matchesCat=selectedCategory==="All"||p.category===selectedCategory;
@@ -1922,9 +1922,45 @@ function render(){
     c.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openPlaceModal(+c.dataset.place)}};
   });
   document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(+b.dataset.fav)});
-  updateMarkers();
+  updateMarkers(fit);
 }
-function imageFor(p){return p.photo || `https://loremflickr.com/900/600/bengaluru,${encodeURIComponent(p.name)}?lock=${p.id}`}
+const PHOTO_POOLS = {
+  "OG Spots": [
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=85"
+  ],
+  "Dosas and Darshinis": [
+    "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1626776876729-bab4360f5a5a?auto=format&fit=crop&w=1200&q=85"
+  ],
+  "Cafes and Coffee": [
+    "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+  ],
+  "Pubs & Nightlife": [
+    "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1575444758702-4a6b9222336e?auto=format&fit=crop&w=1200&q=85"
+  ],
+  "Parks and Attractions": [
+    "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+  ]
+};
+const DEFAULT_PHOTOS = [
+  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+  "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=85",
+  "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=85"
+];
+function imageFor(p){
+  if(p.photo && !p.photo.includes('loremflickr.com')) return p.photo;
+  const pool=PHOTO_POOLS[p.category] || DEFAULT_PHOTOS;
+  return pool[(Number(p.id)||0)%pool.length];
+}
 function distanceLabel(p){return userLocation?`${distanceKm(userLocation.lat,userLocation.lng,p.lat,p.lng).toFixed(1)} km away`:"Near you? Enable location"}
 function statusFor(p){
   if(!p.hours) return `<span class="status unknown">● Hours not listed</span>`;
@@ -1937,7 +1973,7 @@ function statusFor(p){
 function card(p){
   const fav=favorites.has(p.id);
   return `<article class="card photo-card" tabindex="0" data-place="${p.id}">
-    <div class="photo-wrap"><img src="${imageFor(p)}" alt="${esc(p.name)} Bengaluru" loading="lazy" onerror="this.src='https://loremflickr.com/900/600/bengaluru?lock=${p.id}'"><button class="fav-btn ${fav?'saved':''}" data-fav="${p.id}" aria-label="${fav?'Remove from':'Add to'} favorites">${fav?'♥':'♡'}</button></div>
+    <div class="photo-wrap"><img src="${imageFor(p)}" alt="${esc(p.name)} Bengaluru" loading="lazy" onerror="this.onerror=null;this.src=DEFAULT_PHOTOS[(Number(p.id)||0)%DEFAULT_PHOTOS.length]"><button class="fav-btn ${fav?'saved':''}" data-fav="${p.id}" aria-label="${fav?'Remove from':'Add to'} favorites">${fav?'♥':'♡'}</button></div>
     <div class="card-inner"><div class="card-top"><span class="badge">${esc(p.category)}</span><span class="rating">★ ${p.rating.toFixed(1)}</span></div>
     <h3>${esc(p.name)}</h3><div class="meta">${esc(p.type)} · ${esc(p.area)}</div>
     <div class="card-info"><span>${PRICE_LABELS[p.price]}</span>${statusFor(p)}<span>${distanceLabel(p)}</span></div>
@@ -1956,13 +1992,29 @@ function openPlaceModal(id){
 function closePlaceModal(){$("#placeModal").classList.remove("open");$("#placeModal").setAttribute("aria-hidden","true");document.body.classList.remove("modal-open")}
 function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);localStorage.setItem("namma-favorites",JSON.stringify([...favorites]));render();toast(favorites.has(id)?"Added to favorites":"Removed from favorites")}
 function locateMe(){
+  if(!window.isSecureContext && location.hostname!=='localhost'){toast("Near me needs a secure HTTPS connection");return}
   if(!navigator.geolocation){toast("Location is not supported by this browser");return}
-  toast("Requesting your location…"); navigator.geolocation.getCurrentPosition(pos=>{userLocation={lat:pos.coords.latitude,lng:pos.coords.longitude};$("#nearMeBtn").classList.add("active");$("#nearMeBtn").textContent="📍 Near me";render();map.setView([userLocation.lat,userLocation.lng],13);L.circleMarker([userLocation.lat,userLocation.lng],{radius:8,weight:3}).addTo(map).bindPopup("You are here");toast("Sorted by distance from you")},()=>toast("Location permission was not granted"),{enableHighAccuracy:true,timeout:10000});
+  const btn=$("#nearMeBtn");
+  btn.disabled=true; btn.textContent="📍 Locating…";
+  navigator.geolocation.getCurrentPosition(pos=>{
+    userLocation={lat:pos.coords.latitude,lng:pos.coords.longitude};
+    btn.disabled=false; btn.classList.add("active"); btn.textContent="📍 Near me";
+    render(false);
+    map.setView([userLocation.lat,userLocation.lng],13);
+    if(window.userMarker) window.userMarker.remove();
+    window.userMarker=L.circleMarker([userLocation.lat,userLocation.lng],{radius:8,weight:3}).addTo(map).bindPopup("You are here");
+    toast("Location found — places sorted by distance");
+  },err=>{
+    btn.disabled=false; btn.textContent="📍 Near me";
+    const messages={1:"Location permission was denied. Allow location access in your browser settings.",2:"Your location could not be determined. Try again.",3:"Location request timed out. Try again."};
+    toast(messages[err.code]||"Unable to get your location");
+  },{enableHighAccuracy:true,timeout:15000,maximumAge:60000});
 }
+
 function distanceKm(lat1,lon1,lat2,lon2){const R=6371,dLat=(lat2-lat1)*Math.PI/180,dLon=(lon2-lon1)*Math.PI/180,a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))}
 function initMap(){map=L.map("map",{scrollWheelZoom:false}).setView([12.9716,77.5946],11);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map)}
 function markerIcon(p){return L.divIcon({className:'custom-marker',html:`<span class="marker-pin price-${p.price}"><i>${money(p.price)}</i></span>`,iconSize:[42,42],iconAnchor:[21,21]})}
-function updateMarkers(){markers.forEach(m=>m.remove());markers=[];filtered.forEach(p=>{const m=L.marker([p.lat,p.lng],{icon:markerIcon(p)}).addTo(map);m.bindPopup(`<strong>${esc(p.name)}</strong><br><span>${esc(p.type)} · ${esc(p.area)}</span><br><b>★ ${p.rating.toFixed(1)} · ${PRICE_LABELS[p.price]}</b><br>${userLocation?`<small>${distanceLabel(p)}</small><br>`:''}<br><a href="${p.maps}" target="_blank" rel="noopener">📍 Open in Google Maps</a>`);markers.push(m)});fitMap(false)}
+function updateMarkers(shouldFit=true){markers.forEach(m=>m.remove());markers=[];filtered.forEach(p=>{const m=L.marker([p.lat,p.lng],{icon:markerIcon(p)}).addTo(map);m.bindPopup(`<strong>${esc(p.name)}</strong><br><span>${esc(p.type)} · ${esc(p.area)}</span><br><b>★ ${p.rating.toFixed(1)} · ${PRICE_LABELS[p.price]}</b><br>${userLocation?`<small>${distanceLabel(p)}</small><br>`:''}<br><a href="${p.maps}" target="_blank" rel="noopener">📍 Open in Google Maps</a>`);markers.push(m)});fitMap(false)}
 function fitMap(showToast=true){if(!markers.length)return;map.fitBounds(L.featureGroup(markers).getBounds().pad(.15));if(showToast)toast("Map fitted to your filtered results")}
 function toast(t){const x=$("#toast");x.textContent=t;x.classList.add("show");setTimeout(()=>x.classList.remove("show"),1800)}
 function toggleTheme(){document.body.classList.toggle("dark");$("#themeBtn").textContent=document.body.classList.contains("dark")?"☀":"☾";localStorage.setItem("namma-theme",document.body.classList.contains("dark")?"dark":"light")}

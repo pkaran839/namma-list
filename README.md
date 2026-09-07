@@ -31,3 +31,10 @@ The next production step should move the data into MySQL/PostgreSQL and expose i
 
 ## Data note
 The initial listing names/categories/areas/ratings are based on the publicly visible BLR Wiki page checked during this build. Price levels and map coordinates in this prototype are starter values and should be verified before publication.
+
+
+## v5 fixes
+- Removed LoremFlickr because it could return irrelevant/cat images.
+- Added varied category-based Unsplash photo sources with a safe fallback.
+- Improved Near Me: HTTPS check, permission/error messages, timeout handling, user marker, and map no longer jumps away after locating you.
+- Added a note clarifying that the result count represents the complete filtered list.
